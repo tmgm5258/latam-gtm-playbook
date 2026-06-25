@@ -92,13 +92,13 @@ a{color:inherit; text-decoration:none;}
 .brand .dot{color:var(--light-blue);}
 .brand .sep{width:1px; height:14px; background:var(--line); display:inline-block; transform:translateY(2px);}
 .brand .tag{font-size:11px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--muted);}
-.nav-links{margin-left:auto; display:flex; align-items:center; gap:2px; overflow-x:auto; scrollbar-width:none;}
+.nav-links{margin-left:auto; display:flex; align-items:center; gap:1px; overflow-x:auto; scrollbar-width:none; min-width:0;}
 .nav-links::-webkit-scrollbar{display:none;}
-.nav-links a{font-size:13px; font-weight:600; color:var(--muted); white-space:nowrap; padding:8px 13px; border-radius:7px; position:relative; transition:color .18s;}
+.nav-links a{font-size:13px; font-weight:600; color:var(--muted); white-space:nowrap; padding:8px 9px; border-radius:7px; position:relative; transition:color .18s;}
 .nav-links a:hover{color:var(--navy);}
 .nav-links a.active{color:var(--navy);}
-.nav-links a.active::after{content:""; position:absolute; left:13px; right:13px; bottom:-1px; height:2px; background:var(--light-blue); border-radius:2px;}
-.nav-cta{margin-left:14px; display:inline-flex; align-items:center; gap:7px; font-size:11.5px; font-weight:800; letter-spacing:.05em; text-transform:uppercase; color:#fff; background:var(--red); border:1px solid var(--red); padding:7px 14px; border-radius:999px; white-space:nowrap; text-decoration:none; transition:background .15s ease, transform .15s ease, box-shadow .15s ease; box-shadow:0 3px 10px rgba(223,23,55,.30);}
+.nav-links a.active::after{content:""; position:absolute; left:9px; right:9px; bottom:-1px; height:2px; background:var(--light-blue); border-radius:2px;}
+.nav-cta{margin-left:14px; flex:0 0 auto; display:inline-flex; align-items:center; gap:7px; font-size:11.5px; font-weight:800; letter-spacing:.05em; text-transform:uppercase; color:#fff; background:var(--red); border:1px solid var(--red); padding:7px 14px; border-radius:999px; white-space:nowrap; text-decoration:none; transition:background .15s ease, transform .15s ease, box-shadow .15s ease; box-shadow:0 3px 10px rgba(223,23,55,.30);}
 .nav-cta:hover{background:#c41530; border-color:#c41530; transform:translateY(-1px); box-shadow:0 5px 16px rgba(223,23,55,.42);}
 .nav-cta:active{transform:translateY(0);}
 .nav-cta svg{width:13px; height:13px; flex:0 0 auto;}
@@ -699,8 +699,8 @@ a{color:inherit; text-decoration:none;}
       <a href="#s3">S3 · Retail</a>
         <a href="#s4">S4 · Partners</a>
       <a href="#s5">S5 · Product &amp; Tools Gap</a>
-    <a class="nav-cta" href="https://drive.google.com/file/d/1sFv9sXa8KScrR4vijAmQ2aRIdF-pF5JP/view?usp=sharing" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v11"/><path d="M8 11l4 4 4-4"/><path d="M5 19h14"/></svg>Full PDF</a>
     </div>
+    <a class="nav-cta" href="https://drive.google.com/file/d/1sFv9sXa8KScrR4vijAmQ2aRIdF-pF5JP/view?usp=sharing" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v11"/><path d="M8 11l4 4 4-4"/><path d="M5 19h14"/></svg>Full PDF</a>
   </div>
 </nav>
 
@@ -723,7 +723,7 @@ a{color:inherit; text-decoration:none;}
       <div class="snap-rows">
         <div class="snap-row"><span class="k">Core markets</span><span class="v">Brazil · Mexico</span></div>
         <div class="snap-row"><span class="k">Secondary</span><span class="v">Colombia · Argentina</span></div>
-        <div class="snap-row"><span class="k">The un-copyable moat</span><span class="v">Chelsea FC · Brooklyn Nets</span></div>
+        <div class="snap-row"><span class="k">The un-copyable moat</span><span class="v">Chelsea FC</span></div>
       </div>
       <div class="snap-foot"><a href="#stage0">Gated on one move — Stage 0 <span class="arr">↓</span></a></div>
     </aside>
@@ -811,7 +811,7 @@ a{color:inherit; text-decoration:none;}
       <a class="card" href="#s4">
         <span class="card-code">S4</span>
         <span class="card-title">IB / Partner Promo Strategy</span>
-        <span class="card-take">The full partner ecosystem benchmark and a concrete promo menu. In Brazil the partner channel is existential — and the Chelsea / Nets IP is the moat no rival can copy.</span>
+        <span class="card-take">The full partner ecosystem benchmark and a concrete promo menu. In Brazil the partner channel is existential — and the Chelsea FC IP is the moat no rival can copy.</span>
         <span class="card-go">Open section <span class="arr">→</span></span>
       </a>
       <a class="card" href="#s5">
@@ -855,7 +855,7 @@ a{color:inherit; text-decoration:none;}
         <p class="statement">Latin America is won on <span class="u">localization</span><span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Adapting the product to local habits: local payment methods, local-currency accounts, and the local language.</span><span class="tl">In Latin America this matters more than raw trading features; it's what decides where people actually deposit.</span></span></span>, not trading mechanics.</p>
         <ul>
           <li><span class="mk"></span><span>Fully competitive on <b>leverage, cost and brand</b>.</span></li>
-          <li><span class="mk"></span><span>One asset no rival in the region can match — its <b>Chelsea FC and Brooklyn Nets</b><span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">TMGM sponsors Chelsea FC (Premier League football) and the Brooklyn Nets (NBA basketball).</span><span class="tl">No rival broker in the region has anything like it: a unique, un-copyable asset in a football-and-basketball-mad market.</span></span></span> partnerships.</span></li>
+          <li><span class="mk"></span><span>One asset no rival in the region can match — its <b>Chelsea FC</b><span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">TMGM sponsors Chelsea FC (Premier League football).</span><span class="tl">No rival broker in the region has anything like it: a unique, un-copyable asset in a football-mad market.</span></span></span> partnerships.</span></li>
           <li><span class="mk"></span><span>But a <b>structural payments gap</b><span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">TMGM can't take the instant local payments people here use (PIX in Brazil, SPEI in Mexico) and only holds accounts in US dollars.</span><span class="tl">No marketing can fix this; until it's solved, the money spent attracting customers leaks away at the deposit step.</span></span></span> (no PIX, SPEI or local-currency accounts) the marketing layer can't fix — <b>close it first</b>, or acquisition spend leaks at the deposit step.</span></li>
         </ul>
       </div>
@@ -1124,7 +1124,7 @@ a{color:inherit; text-decoration:none;}
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>Broker</th><th>Key regulators</th><th>LATAM onboarding entity</th><th>Trust signal</th></tr></thead>
         <tbody>
-          <tr class="tmgm"><td class="bk">TMGM<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Holds licences from Australia's ASIC plus offshore regulators; serves this region through its Vanuatu branch.</span><span class="tl">Trust comes from its ASIC roots, 300k+ clients, ~$3 trillion traded, and its Chelsea FC and Brooklyn Nets sponsorships.</span></span></span></td><td>ASIC (AFSL 436416), VFSC Vanuatu (40356), FMA NZ, FSC Mauritius</td><td>VFSC (Vanuatu)</td><td class="win">ASIC heritage; 300k+ clients; ~$3T volume Mar-2026; Chelsea FC + Brooklyn Nets; UNICEF</td></tr>
+          <tr class="tmgm"><td class="bk">TMGM<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Holds licences from Australia's ASIC plus offshore regulators; serves this region through its Vanuatu branch.</span><span class="tl">Trust comes from its ASIC roots, 300k+ clients, ~$3 trillion traded, and its Chelsea FC sponsorship.</span></span></span></td><td>ASIC (AFSL 436416), VFSC Vanuatu (40356), FMA NZ, FSC Mauritius</td><td>VFSC (Vanuatu)</td><td class="win">ASIC heritage; 300k+ clients; ~$3T volume Mar-2026; Chelsea FC; UNICEF</td></tr>
           <tr><td class="bk">Exness<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Big-name UK and Cyprus licences, but those only cover business clients; retail clients here go through its Seychelles branch.</span><span class="tl">Builds trust by publishing audited, live trading stats.</span></span></span></td><td>FCA, CySEC (B2B), FSCA, FSA Seychelles, CMA, CBCS, FSC</td><td>FSA Seychelles</td><td>Audited live stats; FCA/CySEC are B2B-only</td></tr>
           <tr><td class="bk">XM<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Licensed in Cyprus, Australia and elsewhere; onboards this region through its Belize branch.</span><span class="tl">Leans on scale for trust: 20 million-plus clients over 15+ years.</span></span></span></td><td>CySEC, ASIC, DFSA, FSCA, FSC Belize</td><td>XM Global (Belize)</td><td>20M+ clients; 15+ yrs</td></tr>
           <tr><td class="bk">Pepperstone<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Strongly regulated (UK, Australia, Germany and more); serves offshore clients via the Bahamas.</span><span class="tl">Carries a very high independent trust score and 400k+ clients.</span></span></span></td><td>FCA, ASIC, CySEC, BaFin, DFSA, CMA, SCB</td><td>SCB (Bahamas) / offshore</td><td>Trust 94/99; 400k+ clients</td></tr>
@@ -1232,7 +1232,7 @@ a{color:inherit; text-decoration:none;}
           <div class="we-head"><span class="dot g"></span>Where TMGM wins</div>
           <div class="we-item first"><div class="we-dim">Leverage <span class="v">— 1:1000</span></div><div class="we-read">Matches XM; beats AvaTrade (1:400), Pepperstone (1:200), eToro (1:30).</div></div>
           <div class="we-item"><div class="we-dim">Language support <span class="v">— PT + ES, 24/7 (claimed)</span></div><div class="we-read">Beats AvaTrade (24/5), IC Markets, Pepperstone (EN-focused).</div></div>
-          <div class="we-item"><div class="we-dim">Brand / trust <span class="v">— Chelsea FC + Brooklyn Nets + ASIC</span></div><div class="we-read">Unmatched sports IP in a football-and-basketball region; anchor trust on ASIC.</div></div>
+          <div class="we-item"><div class="we-dim">Brand / trust <span class="v">— Chelsea FC + ASIC</span></div><div class="we-read">Unmatched sports IP in a football-loving region; anchor trust on ASIC.</div></div>
           <div class="we-item"><div class="we-dim">Crypto breadth <span class="v">— 21 coins</span></div><div class="we-read">Above most rivals (10–17); behind only eToro/Saxo.</div></div>
           <div class="we-par"><span class="pk">On par</span><span><b>Cost (raw) — 0.0 + $7 RT.</b> On par with IC Markets / Pepperstone; not a sole differentiator.</span></div>
         </div>
@@ -1295,9 +1295,9 @@ a{color:inherit; text-decoration:none;}
         </div>
         <div class="find-card">
           <span class="owner">Marketing</span>
-          <span class="tip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">TMGM sponsors <b>Chelsea</b> (football) and the <b>Brooklyn Nets</b> (basketball) — a big draw in sport-loving Latin America.</span><span class="tl">Meanwhile a rival, IC Markets, doesn't fully serve customers based in Brazil.</span><span class="tl">That's our opening: lean on the sports fame and a Portuguese-language, Brazil-focused sign-up.</span></span></span>
+          <span class="tip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">TMGM sponsors <b>Chelsea</b> (football) — a big draw in sport-loving Latin America.</span><span class="tl">Meanwhile a rival, IC Markets, doesn't fully serve customers based in Brazil.</span><span class="tl">That's our opening: lean on the sports fame and a Portuguese-language, Brazil-focused sign-up.</span></span></span>
           <div class="finding">Brand + IC Markets BR gap</div>
-          <div class="why">Chelsea/Nets halo + rival's Brazil restriction = an opening.</div>
+          <div class="why">Chelsea FC halo + rival's Brazil restriction = an opening.</div>
           <div class="action"><span class="al">Action</span>Run LATAM sports activations; target BR with localized funnel.</div>
         </div>
       </div>
@@ -1320,7 +1320,7 @@ a{color:inherit; text-decoration:none;}
       <div class="left">
         <span class="sec-eyebrow"><span class="code">S3</span><span class="txt">Retail Promo &amp; Campaign Ideas</span></span>
         <h2>The plays that win LATAM retail.</h2>
-        <p class="intro">The LATAM CFD battleground is now won on localized, payment-linked instant rewards (PIX/SPEI), big-prize trading championships, and copy/social-trading viral loops — not on small static bonuses. TMGM's current levers look competitive on paper but are undermined by structural gaps the promo layer can't fix. The plan anchors on the live competitor reality, then a <b>70 / 30 acquisition-to-reactivation architecture</b> with a flagship championship built on Chelsea FC + Brooklyn Nets IP.</p>
+        <p class="intro">The LATAM CFD battleground is now won on localized, payment-linked instant rewards (PIX/SPEI), big-prize trading championships, and copy/social-trading viral loops — not on small static bonuses. TMGM's current levers look competitive on paper but are undermined by structural gaps the promo layer can't fix. The plan anchors on the live competitor reality, then a <b>70 / 30 acquisition-to-reactivation architecture</b> with a flagship championship built on Chelsea FC IP.</p>
         <div class="split7030">
           <div class="sphead"><span class="a">Acquisition</span><span class="r">Reactivation</span></div>
           <div class="bar"><div class="seg-a"></div><div class="seg-r"></div></div>
@@ -1424,7 +1424,7 @@ a{color:inherit; text-decoration:none;}
         </div>
         <div class="hp-r">
           <div class="wl">Why it converts</div>
-          <p>Championship + copy flywheel — and a <b>Chelsea / Nets finale</b> is IP no rival in the region has.</p>
+          <p>Championship + copy flywheel — and a <b>Chelsea FC finale</b> is IP no rival in the region has.</p>
         </div>
       </div>
       <div class="acq-grid">
@@ -1466,8 +1466,8 @@ a{color:inherit; text-decoration:none;}
           <div class="acq-row"><span class="ml">Why it works</span><p>Strongest active-trader retention magnet in market.</p></div>
         </div>
         <div class="ret-card">
-          <div class="mh"><span class="cc">R2</span><h4>Tiered VIP status ladder<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A status ladder gives traders ranks from Bronze up to Platinum — the more they trade, the higher they climb, like airline frequent-flyer tiers.</span><span class="tl">Each rank unlocks perks: faster withdrawals, cheaper trading, priority support, and at the very top, Chelsea FC / Brooklyn Nets experiences.</span></span></span></h4></div>
-          <div class="acq-row"><span class="ml">How it works</span><p>Bronze→Platinum-style: instant-withdrawal priority, spread rebates, VIP support, Chelsea/Nets perks at top.</p></div>
+          <div class="mh"><span class="cc">R2</span><h4>Tiered VIP status ladder<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A status ladder gives traders ranks from Bronze up to Platinum — the more they trade, the higher they climb, like airline frequent-flyer tiers.</span><span class="tl">Each rank unlocks perks: faster withdrawals, cheaper trading, priority support, and at the very top, Chelsea FC experiences.</span></span></span></h4></div>
+          <div class="acq-row"><span class="ml">How it works</span><p>Bronze→Platinum-style: instant-withdrawal priority, spread rebates, VIP support, Chelsea FC perks at top.</p></div>
           <div class="acq-row"><span class="ml">Why it works</span><p>Visible status drives progression + loyalty.</p></div>
         </div>
         <div class="ret-card">
@@ -1490,7 +1490,7 @@ a{color:inherit; text-decoration:none;}
         <div class="fomo-card"><div class="fn">Live-media leaderboard championships<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A leaderboard is a live ranking of who's winning a trading contest — like a scoreboard at a sports match everyone can watch.</span><span class="tl">Streaming it live, with creator commentary and letting viewers copy the top traders' moves, turns the contest itself into content people tune in for.</span></span></span></div><div class="fd">Turn the contest into content — live standings, creator commentary, copy-along (EBC plays this well).</div></div>
         <div class="fomo-card"><div class="fn">Limited-time "deposit drops"<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A 'drop' is a limited-time offer with only so many spots — the same idea as a limited sneaker release or concert-ticket sale.</span><span class="tl">Countdowns and 'only a few slots left' messaging create urgency, so people sign up now instead of putting it off.</span></span></span></div><div class="fd">Drop-culture scarcity: countdowns, capped allocations, "while slots last".</div></div>
         <div class="fomo-card"><div class="fn">Crypto-native incentives<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">USDT and USDC are 'stablecoins' — crypto coins tied to the US dollar, so one coin is always worth about $1.</span><span class="tl">Many people in Latin America already hold these as a way to keep dollars, so letting them deposit and withdraw in them (with rewards) matches a habit they have.</span></span></span></div><div class="fd">USDT/USDC deposit-withdrawal rails + rewards — matches stablecoin-as-dollar behaviour.</div></div>
-        <div class="fomo-card"><div class="fn">Football / NBA tie-in activations<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Marketing built around TMGM's Chelsea FC (football) and Brooklyn Nets (NBA basketball) sponsorships — think ticket giveaways and predict-the-score games.</span><span class="tl">No rival broker in Latin America sponsors these teams, so this is one thing competitors simply can't copy.</span></span></span></div><div class="fd"><b>Chelsea/Nets</b> ticket drops, predict-the-score gamified contests — IP no LATAM rival can match.</div></div>
+        <div class="fomo-card"><div class="fn">Football tie-in activations<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Marketing built around TMGM's Chelsea FC (football) sponsorship — think ticket giveaways and predict-the-score games.</span><span class="tl">No rival broker in Latin America sponsors this club, so this is one thing competitors simply can't copy.</span></span></span></div><div class="fd"><b>Chelsea FC</b> ticket drops, predict-the-score gamified contests — IP no LATAM rival can match.</div></div>
         <div class="fomo-card"><div class="fn">Influencer challenge series<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Social-media creators compete against each other live using real TMGM accounts — like a public tournament.</span><span class="tl">Their followers watch and can automatically copy the trades along, which pulls each creator's audience in and spreads our reach.</span></span></span></div><div class="fd">Creators compete publicly on TMGM accounts; audiences copy-trade along.</div></div>
       </div>
     </div>
@@ -1530,8 +1530,8 @@ a{color:inherit; text-decoration:none;}
         <div class="tl-stage">
           <span class="tl-node"></span>
           <div class="tl-card">
-            <div class="tl-head"><span class="sn">Stage 2 — Hero launch<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The headline campaign: the 'TMGM Champions League' trading contest, ending with a Chelsea FC / Brooklyn Nets prize experience.</span><span class="tl">It launches only after the payment rails and partners are in place, so the big push actually converts instead of leaking away.</span></span></span></span><span class="st">Months 3–6</span></div>
-            <p>Launch "TMGM Champions League" (demo + live) with a Chelsea/Nets finale; pair with the PIX/SPEI Instant Drop + upgraded referral.</p>
+            <div class="tl-head"><span class="sn">Stage 2 — Hero launch<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The headline campaign: the 'TMGM Champions League' trading contest, ending with a Chelsea FC prize experience.</span><span class="tl">It launches only after the payment rails and partners are in place, so the big push actually converts instead of leaking away.</span></span></span></span><span class="st">Months 3–6</span></div>
+            <p>Launch "TMGM Champions League" (demo + live) with a Chelsea FC finale; pair with the PIX/SPEI Instant Drop + upgraded referral.</p>
           </div>
         </div>
         <div class="tl-stage">
@@ -1571,7 +1571,7 @@ a{color:inherit; text-decoration:none;}
     <!-- bottom line -->
     <div class="botline">
       <div class="bl">Bottom line</div>
-      <p>No campaign overcomes missing PIX/SPEI, BRL/MXN, high minimums and missing stablecoin rails — <b>Stage 0 is non-negotiable</b>. With those fixed, TMGM can out-execute on a flagship championship, instant-payment drops, and a finfluencer-led model, using Chelsea FC + Brooklyn Nets IP that no LATAM rival can match. IB / Partner promotions are covered in S3.</p>
+      <p>No campaign overcomes missing PIX/SPEI, BRL/MXN, high minimums and missing stablecoin rails — <b>Stage 0 is non-negotiable</b>. With those fixed, TMGM can out-execute on a flagship championship, instant-payment drops, and a finfluencer-led model, using Chelsea FC IP that no LATAM rival can match. IB / Partner promotions are covered in S3.</p>
     </div>
 
   </div>
@@ -1587,11 +1587,11 @@ a{color:inherit; text-decoration:none;}
       <div class="left">
         <span class="sec-eyebrow"><span class="code">S4</span><span class="txt">IB / Partner Promo Strategy</span></span>
         <h2>The partner program is the distribution system.</h2>
-        <p class="intro">In Brazil, CVM bans mass-market forex advertising — so the IB and finfluencer channel is the <b>only legal route to a funded account</b>. That makes partner-program competitiveness existential, not optional. Rivals already know it: Exness runs Team Pro on instant PIX payouts, XM scaled to <b>250k partners</b>, Octa reached 50k IBs on $12/lot overrides. TMGM’s economics can compete — but its un-copyable edge is the <b>Chelsea FC + Brooklyn Nets IP</b>, which must anchor recruitment and top-tier retention.</p>
+        <p class="intro">In Brazil, CVM bans mass-market forex advertising — so the IB and finfluencer channel is the <b>only legal route to a funded account</b>. That makes partner-program competitiveness existential, not optional. Rivals already know it: Exness runs Team Pro on instant PIX payouts, XM scaled to <b>250k partners</b>, Octa reached 50k IBs on $12/lot overrides. TMGM’s economics can compete — but its un-copyable edge is the <b>Chelsea FC IP</b>, which must anchor recruitment and top-tier retention.</p>
         <div class="s1-quickstats">
           <div class="qs"><div class="qn">12</div><div class="ql">Rival partner programs benchmarked<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">We benchmarked TMGM's partner deal against 12 rival brokers — covering what they pay the people who bring them traders.</span><span class="tl">Those people are 'IBs' (introducing brokers) and finance creators; in Brazil they're the only legal way to find new customers.</span></span></span></div></div>
           <div class="qs"><div class="qn">37</div><div class="ql">CVM stop orders in 2025 — enforcement tripled<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">CVM is Brazil's financial regulator. A 'stop order' is a cease-and-desist that forces a firm to stop advertising.</span><span class="tl">It issued 37 in 2025, up from 13 in 2024 — the rules are tightening, so we reach people only through partners, never public ads.</span></span></span></div></div>
-          <div class="qs"><div class="qn">1</div><div class="ql">Un-copyable moat: Chelsea FC + Brooklyn Nets<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A 'moat' is an advantage rivals can't copy. TMGM sponsors Chelsea FC (football) and the Brooklyn Nets (NBA basketball).</span><span class="tl">No other broker in Latin America has these teams, so matchday and courtside experiences are a recruiting hook only TMGM can offer.</span></span></span></div></div>
+          <div class="qs"><div class="qn">1</div><div class="ql">Un-copyable moat: Chelsea FC<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A 'moat' is an advantage rivals can't copy. TMGM sponsors Chelsea FC (football).</span><span class="tl">No other broker in Latin America has this partnership, so matchday experiences are a recruiting hook only TMGM can offer.</span></span></span></div></div>
         </div>
         <div class="legend">
           <span class="lg g"><span class="sw g"></span>Advantage / the un-copyable moat</span>
@@ -1624,7 +1624,7 @@ a{color:inherit; text-decoration:none;}
       <div class="axes">
         <div class="axis"><span class="an">1</span><div class="at">“Can I get paid fast, in my local currency?”<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">PIX (Brazil) and SPEI (Mexico) are instant local bank transfers. The partner wants their commission paid straight into their own local account, right away.</span><span class="tl">TMGM has no local payout rail yet, so partners wait — and may pick a rival that pays faster. That's the gap.</span></span></span></div><p>Instant PIX / SPEI settlement to the IB’s own account. No local rail is an automatic disadvantage.</p><span class="chip gap">TMGM gap</span></div>
         <div class="axis"><span class="an">2</span><div class="at">“Can I build a network beneath me?”<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A 'sub-IB' network lets a partner recruit other partners beneath them and earn a slice of what those sub-partners bring in — like a referral chain.</span><span class="tl">It's how partner networks grow fast in emerging markets. TMGM's version is shallow ('thin'), so big network-builders are harder to attract. That's the gap.</span></span></span></div><p>Sub-IB depth is the scaling engine for emerging-market networks — and TMGM’s is thin.</p><span class="chip gap">TMGM gap</span></div>
-        <div class="axis"><span class="an">3</span><div class="at">“Can it give me what no one else can?”<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Stamford Bridge is Chelsea FC's stadium; Barclays Center is the Brooklyn Nets' arena. TMGM sponsors both teams.</span><span class="tl">So top partners can be rewarded with match-day or courtside experiences — something no rival broker in Latin America can offer. That's the un-copyable moat.</span></span></span></div><p>A Stamford Bridge matchday or a Barclays Center courtside seat. No LATAM competitor can match it.</p><span class="chip moat">Un-copyable moat</span></div>
+        <div class="axis"><span class="an">3</span><div class="at">“Can it give me what no one else can?”<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Stamford Bridge is Chelsea FC's stadium. TMGM sponsors the club.</span><span class="tl">So top partners can be rewarded with match-day experiences — something no rival broker in Latin America can offer. That's the un-copyable moat.</span></span></span></div><p>A Stamford Bridge matchday experience. No LATAM competitor can match it.</p><span class="chip moat">Un-copyable moat</span></div>
       </div>
     </div>
 
@@ -1662,7 +1662,7 @@ a{color:inherit; text-decoration:none;}
           <tr><td class="bk">Commission payout rail<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The 'rail' is the method used to actually send a partner their commission.</span><span class="tl">Exness sends it instantly to a partner's PIX key (Brazil's instant payments). TMGM has no local rail — the single biggest disadvantage.</span></span></span></td><td>Exness pays IBs instantly via PIX</td><td class="gap">MISSING — the #1 IB disadvantage (PIX/SPEI)</td></tr>
           <tr><td class="bk">Finfluencer $500/mo advance<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A 'finfluencer' is a social-media finance creator; an 'advance' is a guaranteed monthly payment to get them started.</span><span class="tl">We offer $500/month — entry-level. Established creators command ~$10k/month, so we need a premium 'ambassador' tier for top names.</span></span></span></td><td>Established creators ~$10k/mo retainer + hybrid</td><td>Entry-level only — add a premium ambassador tier</td></tr>
           <tr><td class="bk">Refer-a-friend $25<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A reward paid to an existing client for inviting a friend who joins and trades.</span><span class="tl">Ours is just $25 — far below XM ($150) and Pepperstone ($1,000). It needs replacing with a tiered, much larger reward.</span></span></span></td><td>XM $150; Pepperstone $1,000</td><td class="gap">Materially weak — replace with tiered structure</td></tr>
-          <tr><td class="bk">Chelsea FC + Brooklyn Nets IP<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">'IP' here means the sponsorship rights to Chelsea FC (football) and the Brooklyn Nets (NBA basketball).</span><span class="tl">No rival broker in Latin America has these teams — so match-day and courtside rewards for top partners are an advantage no one can copy.</span></span></span></td><td>No LATAM competitor has equivalent sports IP</td><td class="win">UNIQUE, un-copyable moat — make it the recruitment centrepiece</td></tr>
+          <tr><td class="bk">Chelsea FC IP<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">'IP' here means the sponsorship rights to Chelsea FC (football).</span><span class="tl">No rival broker in Latin America has this partnership — so match-day rewards for top partners are an advantage no one can copy.</span></span></span></td><td>No LATAM competitor has equivalent sports IP</td><td class="win">UNIQUE, un-copyable moat — make it the recruitment centrepiece</td></tr>
         </tbody>
       </table></div>
     </div>
@@ -1726,14 +1726,14 @@ a{color:inherit; text-decoration:none;}
           <span class="num">4.7</span>
           <div>
             <h3>Innovative concepts &amp; the un-copyable moat</h3>
-            <p class="sub">Cutting-edge partner mechanics — led by the Chelsea FC / Brooklyn Nets hook no rival can match.</p>
+            <p class="sub">Cutting-edge partner mechanics — led by the Chelsea FC hook no rival can match.</p>
           </div>
         </div>
         <div class="concept-grid">
           <div class="concept-card moat">
             <span class="ctag">Un-copyable moat</span>
-            <div class="cn">Chelsea FC / Brooklyn Nets experiences<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">TMGM sponsors Chelsea FC (football) and the Brooklyn Nets (NBA). Top partners and contest winners get match-day or courtside experiences.</span><span class="tl">No rival broker in Latin America has these teams — so it's a recruiting hook none of them can copy.</span></span></span></div>
-            <div class="cd">Matchday + courtside seats as top-IB rewards and IB-contest grand prizes — the recruitment &amp; retention hook no LATAM rival can match.</div>
+            <div class="cn">Chelsea FC experiences<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">TMGM sponsors Chelsea FC (football). Top partners and contest winners get match-day experiences.</span><span class="tl">No rival broker in Latin America has this partnership — so it's a recruiting hook none of them can copy.</span></span></span></div>
+            <div class="cd">Matchday experiences as top-IB rewards and IB-contest grand prizes — the recruitment &amp; retention hook no LATAM rival can match.</div>
           </div>
           <div class="concept-card">
             <div class="cn">Tiered IB status ladder<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A ranked ladder (Bronze up to Platinum) where partners climb as they refer more, unlocking better pay and perks at each level.</span><span class="tl">The twist: the thresholds are published openly, so partners always know what they'll earn — beating Exness on transparency.</span></span></span></div>
@@ -1784,8 +1784,8 @@ a{color:inherit; text-decoration:none;}
           <div class="tl-stage">
             <span class="tl-node"></span>
             <div class="tl-card">
-              <div class="tl-head"><span class="sn">Stage 3 — The moat<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The final layer: deploy the advantages no rival can copy.</span><span class="tl">The 'TMGM Pro' ambassador roster and Chelsea/Nets experiences as top-partner rewards, plus localized PT/ES support.</span></span></span></span><span class="st">6–12 mo</span></div>
-              <p>Build the “TMGM Pro” ambassador roster; deploy Chelsea/Nets experiences as top-IB rewards; add AUC creator payouts; localize PT/ES partner portals + AMs.</p>
+              <div class="tl-head"><span class="sn">Stage 3 — The moat<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The final layer: deploy the advantages no rival can copy.</span><span class="tl">The 'TMGM Pro' ambassador roster and Chelsea FC experiences as top-partner rewards, plus localized PT/ES support.</span></span></span></span><span class="st">6–12 mo</span></div>
+              <p>Build the “TMGM Pro” ambassador roster; deploy Chelsea FC experiences as top-IB rewards; add AUC creator payouts; localize PT/ES partner portals + AMs.</p>
             </div>
           </div>
           <div class="tl-stage gate">
@@ -1817,8 +1817,8 @@ a{color:inherit; text-decoration:none;}
             <tr><td class="bk">Bronze (entry)<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The entry tier for a new partner — a few active referred clients, or up to ~50 lots of client trading a month (a 'lot' is the standard trade-size unit).</span><span class="tl">Earns $6 per lot or a 20% revenue share (or up to $400 per client), paid daily, with a PT/ES portal and an account manager.</span></span></span></td><td>1–5 active / ≤50 lots</td><td>$6</td><td>20%</td><td>up to $400</td><td>Daily payout + PT/ES portal &amp; AM</td></tr>
             <tr><td class="bk">Silver<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Second rung — 6 to 20 active clients (or 51 to 200 lots of trading a month).</span><span class="tl">Pay rises to $8 per lot / 30% / up to $500, plus ready-made marketing assets and faster withdrawals.</span></span></span></td><td>6–20 / 51–200 lots</td><td>$8</td><td>30%</td><td>up to $500</td><td>+ co-branded assets, faster withdrawals</td></tr>
             <tr><td class="bk">Gold<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Mid-level partner — 21 to 50 active clients (or 201 to 500 lots a month).</span><span class="tl">$10 per lot / 40% / up to $650, plus priority support and custom landing pages.</span></span></span></td><td>21–50 / 201–500 lots</td><td>$10</td><td>40%</td><td>up to $650</td><td>+ priority support, custom landing pages</td></tr>
-            <tr><td class="bk">Platinum<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">High-volume partner — 51 to 150 active clients (or 501 to 1,500 lots a month).</span><span class="tl">$12 per lot / 50% / up to $800, and the first tier to unlock annual Chelsea/Nets match tickets and VIP events.</span></span></span></td><td>51–150 / 501–1,500 lots</td><td>$12</td><td>50%</td><td>up to $800</td><td class="win">+ Chelsea/Nets match tickets (annual), VIP events</td></tr>
-            <tr><td class="bk">Elite<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The very top — 150+ active clients (or 1,500+ lots a month), on custom-negotiated terms.</span><span class="tl">Up to 55% revenue share, a dedicated key account manager, a co-marketing budget, and courtside/match-day VIP access.</span></span></span></td><td>150+ / 1,500+ lots</td><td>custom</td><td>up to 55%</td><td>custom</td><td class="win">+ courtside/matchday VIP, dedicated KAM, co-marketing budget</td></tr>
+            <tr><td class="bk">Platinum<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">High-volume partner — 51 to 150 active clients (or 501 to 1,500 lots a month).</span><span class="tl">$12 per lot / 50% / up to $800, and the first tier to unlock annual Chelsea FC match tickets and VIP events.</span></span></span></td><td>51–150 / 501–1,500 lots</td><td>$12</td><td>50%</td><td>up to $800</td><td class="win">+ Chelsea FC match tickets (annual), VIP events</td></tr>
+            <tr><td class="bk">Elite<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The very top — 150+ active clients (or 1,500+ lots a month), on custom-negotiated terms.</span><span class="tl">Up to 55% revenue share, a dedicated key account manager, a co-marketing budget, and match-day VIP access.</span></span></span></td><td>150+ / 1,500+ lots</td><td>custom</td><td>up to 55%</td><td>custom</td><td class="win">+ matchday VIP, dedicated KAM, co-marketing budget</td></tr>
           </tbody>
         </table></div>
         <p class="tnote">Partners choose CPA <b>or</b> rebate/rev-share (hybrid 20/80, 50/50, 80/20 splits available). All tiers paid instantly via PIX (BR) / SPEI (MX). Rates are <b>proposals</b> calibrated to the 3.2 benchmark — commercial sign-off + cost-modelling required before launch.</p>
@@ -1831,7 +1831,7 @@ a{color:inherit; text-decoration:none;}
           <tbody>
             <tr><td class="bk">Entry (long tail)<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Small creators (1,000 to 10,000 followers) who sign a 3-month partner agreement.</span><span class="tl">Get a $500/month advance plus daily rebates once that advance is earned back, and a branded content kit.</span></span></span></td><td>1k–10k followers; 3-mo commit; IB agreement</td><td>$500/mo advance + daily rebates once offset</td><td>$500/mo advance</td><td>Branded content kit</td></tr>
             <tr><td class="bk">Community creator<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Niche educators (10,000 to 80,000 followers) running engaged Discord or Telegram communities.</span><span class="tl">Paid a hybrid retainer plus 30 to 50% per funded client — roughly $2k to $5k a month — with co-branded campaigns and event invites.</span></span></span></td><td>10k–80k niche educator (Discord/Telegram)</td><td>Hybrid: retainer + 30–50% CPA</td><td>~$2k–$5k/mo</td><td>Co-branded campaign + event invites</td></tr>
-            <tr><td class="bk">“TMGM Pro” ambassador<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The top tier — a high-trust Portuguese/Spanish educator who becomes a public face of the brand.</span><span class="tl">Retainer + commission + category exclusivity (around $8k to $12k a month equivalent), plus Chelsea/Nets VIP experiences.</span></span></span></td><td>High-trust PT/ES educator (top tier)</td><td>Hybrid retainer + CPA + category exclusivity</td><td>~$8k–$12k/mo equiv</td><td class="win">Chelsea/Nets VIP experiences; brand-face status</td></tr>
+            <tr><td class="bk">“TMGM Pro” ambassador<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The top tier — a high-trust Portuguese/Spanish educator who becomes a public face of the brand.</span><span class="tl">Retainer + commission + category exclusivity (around $8k to $12k a month equivalent), plus Chelsea FC VIP experiences.</span></span></span></td><td>High-trust PT/ES educator (top tier)</td><td>Hybrid retainer + CPA + category exclusivity</td><td>~$8k–$12k/mo equiv</td><td class="win">Chelsea FC VIP experiences; brand-face status</td></tr>
           </tbody>
         </table></div>
         <p class="tnote">Prioritise niche educators (55–70% 90-day retention) over celebrities. Every deal mandates “paid partner / not investment advice” disclosures and reverse-solicitation framing.</p>
@@ -1858,12 +1858,12 @@ a{color:inherit; text-decoration:none;}
             <tr><td class="bk">Direct IB<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A partner you signed up directly, who refers clients to TMGM themselves.</span><span class="tl">Earns the full rate of whatever tier they have reached in the 3.9 ladder.</span></span></span></td><td>Full tier rate (per 3.9)</td></tr>
             <tr><td class="bk">Sub-IB (Tier 2)<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A partner recruited by one of your partners — one level down in the network.</span><span class="tl">The partner above them earns 10% of their commission, matching XM, AvaTrade and HFM.</span></span></span></td><td>10% of the sub-IB's commission — matches XM / AvaTrade / HFM</td></tr>
             <tr><td class="bk">Master-IB (Tier 3, optional)<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">An optional third level — partners recruited beneath a sub-partner, two levels down.</span><span class="tl">Adds another 5% on that second sub-level, rewarding partners who build deep networks.</span></span></span></td><td>Additional 5% on the second sub-level, to reward network builders</td></tr>
-            <tr><td class="bk">Quarterly IB leaderboard<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A ranked contest each quarter showing which partners brought in the most business.</span><span class="tl">The grand prize is the un-copyable hook: a Chelsea match-day or Brooklyn Nets courtside trip.</span></span></span></td><td class="win">Top-IB contest; grand prize = Chelsea matchday / Brooklyn Nets courtside trip</td></tr>
+            <tr><td class="bk">Quarterly IB leaderboard<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A ranked contest each quarter showing which partners brought in the most business.</span><span class="tl">The grand prize is the un-copyable hook: a Chelsea match-day trip.</span></span></span></td><td class="win">Top-IB contest; grand prize = Chelsea matchday trip</td></tr>
           </tbody>
         </table></div>
       </div>
 
-        <div class="botline"><div class="bl">Bottom line</div><p>The partner program is TMGM's core LATAM distribution system, not a marketing line item. Close the table-stakes gaps first (instant PIX/SPEI payouts, BRL/MXN, sub-IB depth, real referral), then deploy the one thing no competitor can copy — Chelsea FC and Brooklyn Nets experiences — as the centrepiece of IB recruitment and top-tier retention. Build the whole program assuming CVM scrutiny, not despite it.</p></div>
+        <div class="botline"><div class="bl">Bottom line</div><p>The partner program is TMGM's core LATAM distribution system, not a marketing line item. Close the table-stakes gaps first (instant PIX/SPEI payouts, BRL/MXN, sub-IB depth, real referral), then deploy the one thing no competitor can copy — Chelsea FC experiences — as the centrepiece of IB recruitment and top-tier retention. Build the whole program assuming CVM scrutiny, not despite it.</p></div>
 
   </div>
 </section>
