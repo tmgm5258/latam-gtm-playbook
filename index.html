@@ -98,7 +98,11 @@ a{color:inherit; text-decoration:none;}
 .nav-links a:hover{color:var(--navy);}
 .nav-links a.active{color:var(--navy);}
 .nav-links a.active::after{content:""; position:absolute; left:13px; right:13px; bottom:-1px; height:2px; background:var(--light-blue); border-radius:2px;}
-.nav-cta{margin-left:14px; font-size:11px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--faint); border:1px solid var(--line); padding:6px 11px; border-radius:999px; white-space:nowrap;}
+.nav-cta{margin-left:14px; display:inline-flex; align-items:center; gap:7px; font-size:11.5px; font-weight:800; letter-spacing:.05em; text-transform:uppercase; color:#fff; background:var(--red); border:1px solid var(--red); padding:7px 14px; border-radius:999px; white-space:nowrap; text-decoration:none; transition:background .15s ease, transform .15s ease, box-shadow .15s ease; box-shadow:0 3px 10px rgba(223,23,55,.30);}
+.nav-cta:hover{background:#c41530; border-color:#c41530; transform:translateY(-1px); box-shadow:0 5px 16px rgba(223,23,55,.42);}
+.nav-cta:active{transform:translateY(0);}
+.nav-cta svg{width:13px; height:13px; flex:0 0 auto;}
+.nav-links a.nav-cta, .nav-links a.nav-cta:hover{color:#fff;}
 
 /* ===================== HERO ===================== */
 .hero{padding:clamp(56px,7vw,92px) 0 var(--pad);}
@@ -692,7 +696,7 @@ a{color:inherit; text-decoration:none;}
       <a href="#s2">S2 · Retail</a>
         <a href="#s3">S3 · Partners</a>
       <a href="#s4">S4 · Products</a>
-    <span class="nav-cta">Confidential</span>
+    <a class="nav-cta" href="https://drive.google.com/file/d/1dTxfe0_9Y1QDoQY6anQ88hJAnyB5B5W9/view?usp=sharing" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v11"/><path d="M8 11l4 4 4-4"/><path d="M5 19h14"/></svg>Full PDF</a>
     </div>
   </div>
 </nav>
