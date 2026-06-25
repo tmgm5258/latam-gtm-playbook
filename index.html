@@ -209,7 +209,7 @@ a{color:inherit; text-decoration:none;}
 /* ===================== S0 — EXECUTIVE SUMMARY ===================== */
 .s0sec{padding:var(--pad) 0; background:var(--paper);}
 
-/* section eyebrow with code tag (reused by S1–S4) */
+/* section eyebrow with code tag (reused by S1–S5) */
 .sec-eyebrow{display:inline-flex; align-items:center; gap:12px; margin-bottom:18px;}
 .sec-eyebrow .code{font-size:12px; font-weight:800; letter-spacing:.06em; color:#fff; background:var(--navy); padding:4px 10px; border-radius:7px;}
 .sec-eyebrow .txt{font-size:12px; font-weight:700; letter-spacing:.2em; text-transform:uppercase; color:var(--muted);}
@@ -621,6 +621,7 @@ a{color:inherit; text-decoration:none;}
 .trig p{font-size:13px; color:var(--body); line-height:1.6;}
 .trig p b{color:var(--navy); font-weight:700;}
 .trig p + p{margin-top:9px;}
+.timeline + .trig{margin-top:26px;}
 
 @media (max-width:920px){
   .mkt-grid{grid-template-columns:1fr;}
@@ -659,6 +660,7 @@ a{color:inherit; text-decoration:none;}
 
 /* ---- S4 Product Offering ---- */
 .s4sec{padding:var(--pad) 0; background:var(--paper);}
+.s5sec{padding:var(--pad) 0; background:var(--tint);}
 .s4-toc{align-self:stretch; display:flex; flex-direction:column;}
 .s4-toc .tl{flex:0 0 auto;}
 .s4-toc a{flex:1 1 auto; padding-top:12px; padding-bottom:12px;}
@@ -692,11 +694,12 @@ a{color:inherit; text-decoration:none;}
     <div class="nav-links">
       <a href="#top" class="active">Overview</a>
       <a href="#s0">S0 · Summary</a>
-      <a href="#s1">S1 · Competitor</a>
-      <a href="#s2">S2 · Retail</a>
-        <a href="#s3">S3 · Partners</a>
-      <a href="#s4">S4 · Products</a>
-    <a class="nav-cta" href="https://drive.google.com/file/d/1dTxfe0_9Y1QDoQY6anQ88hJAnyB5B5W9/view?usp=sharing" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v11"/><path d="M8 11l4 4 4-4"/><path d="M5 19h14"/></svg>Full PDF</a>
+          <a href="#s1">S1 · Market Research</a>
+      <a href="#s2">S2 · Competitor</a>
+      <a href="#s3">S3 · Retail</a>
+        <a href="#s4">S4 · Partners</a>
+      <a href="#s5">S5 · Product &amp; Tools Gap</a>
+    <a class="nav-cta" href="https://drive.google.com/file/d/1sFv9sXa8KScrR4vijAmQ2aRIdF-pF5JP/view?usp=sharing" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v11"/><path d="M8 11l4 4 4-4"/><path d="M5 19h14"/></svg>Full PDF</a>
     </div>
   </div>
 </nav>
@@ -708,7 +711,7 @@ a{color:inherit; text-decoration:none;}
       <span class="label rise d1"><span class="tick"></span>TMGM · LATAM Expansion</span>
       <h1 class="rise d1">Go-To-Market Strategy</h1>
       <p class="subhead rise d2">A one-stop market-entry playbook for Brazil &amp; Mexico — built for the frontline.</p>
-      <p class="lead rise d2">A response to the review feedback: the LATAM market research, turned into a single, scrutiny-proof playbook across four standalone sections.</p>
+      <p class="lead rise d2">A response to the review feedback: the LATAM market research, turned into a single, scrutiny-proof playbook across five standalone sections.</p>
       <div class="meta rise d3">
         <i class="conf">Confidential</i>
       </div>
@@ -730,7 +733,7 @@ a{color:inherit; text-decoration:none;}
 <!-- STAT STRIP -->
 <section class="stats" aria-label="At a glance">
   <div class="wrap stats-grid">
-    <div class="stat"><div class="n">4</div><div class="t">Standalone sections, combining into one playbook (S1–S4)</div></div>
+    <div class="stat"><div class="n">5</div><div class="t">Standalone sections, combining into one playbook (S1–S5)</div></div>
     <div class="stat"><div class="n">9</div><div class="t">Angles in the competitor benchmark across the field</div></div>
     <div class="stat"><div class="n">40<span class="sm">/8</span></div><div class="t">Confirmed instruments live, of which 8 are crypto</div></div>
     <div class="stat"><div class="n">2<span class="sm">+2</span></div><div class="t">Core markets, plus two secondary, in scope</div></div>
@@ -777,8 +780,8 @@ a{color:inherit; text-decoration:none;}
   <div class="wrap">
     <div class="sec-head">
       <span class="label"><span class="tick"></span>The document set</span>
-      <h2>Four standalone docs, one playbook</h2>
-      <p class="intro">Read alone or combined. Each reaches the same conclusion: close the payments gap first, then out-execute on promotions and partners — led by an asset no rival in the region can match.</p>
+      <h2>Five standalone docs, one playbook</h2>
+      <p class="intro">Read alone or combined. Each reaches the same conclusion: close the payments gap first, then out-execute on promotions and partners – led by an asset no rival in the region can match.</p>
     </div>
     <div class="cards">
       <a class="card" href="#s0">
@@ -789,26 +792,32 @@ a{color:inherit; text-decoration:none;}
       </a>
       <a class="card" href="#s1">
         <span class="card-code">S1</span>
-        <span class="card-title">Competitor Analysis</span>
-        <span class="card-take">TMGM benchmarked against the rivals that decide Brazil &amp; Mexico, across nine angles. Strong on mechanics and brand; the decisive gap is LATAM payments.</span>
+        <span class="card-title">LATAM Market Research</span>
+        <span class="card-take">The market foundation — country priority tiers, the LATAM trader profile, and Brazil &amp; Mexico income segmentation. Brazil and Mexico are the Tier-1 core; education and local payments are the conversion unlocks.</span>
         <span class="card-go">Open section <span class="arr">→</span></span>
       </a>
       <a class="card" href="#s2">
         <span class="card-code">S2</span>
-        <span class="card-title">Retail Promo &amp; Campaign Ideas</span>
-        <span class="card-take">What competitors run today, plus a 70/30 acquisition-to-reactivation playbook — PIX-linked deposit drops, a flagship championship and finfluencers.</span>
+        <span class="card-title">Competitor Analysis</span>
+        <span class="card-take">TMGM benchmarked against the rivals that decide Brazil &amp; Mexico, across nine angles. Strong on mechanics and brand; the decisive gap is LATAM payments.</span>
         <span class="card-go">Open section <span class="arr">→</span></span>
       </a>
       <a class="card" href="#s3">
         <span class="card-code">S3</span>
-        <span class="card-title">IB / Partner Promo Strategy</span>
-        <span class="card-take">The full partner ecosystem benchmark and a concrete promo menu. In Brazil the partner channel is existential — and the Chelsea / Nets IP is the moat no rival can copy.</span>
+        <span class="card-title">Retail Promo &amp; Campaign Ideas</span>
+        <span class="card-take">What competitors run today, plus a 70/30 acquisition-to-reactivation playbook — PIX-linked deposit drops, a flagship championship and finfluencers.</span>
         <span class="card-go">Open section <span class="arr">→</span></span>
       </a>
       <a class="card" href="#s4">
         <span class="card-code">S4</span>
-        <span class="card-title">Product Offering</span>
-        <span class="card-take">The verified instrument list for LATAM / offshore clients — 40 instruments, 8 crypto, no US single-stocks. The baseline, corrected and locked.</span>
+        <span class="card-title">IB / Partner Promo Strategy</span>
+        <span class="card-take">The full partner ecosystem benchmark and a concrete promo menu. In Brazil the partner channel is existential — and the Chelsea / Nets IP is the moat no rival can copy.</span>
+        <span class="card-go">Open section <span class="arr">→</span></span>
+      </a>
+      <a class="card" href="#s5">
+        <span class="card-code">S5</span>
+        <span class="card-title">Product &amp; Tools Gap Analysis</span>
+        <span class="card-take">What the market offers that TMGM doesn&#39;t — AI, modern platforms and copy/social trading. TMGM is behind on AI tooling, modern platforms and first-party social trading.</span>
         <span class="card-go">Open section <span class="arr">→</span></span>
       </a>
     </div>
@@ -837,7 +846,7 @@ a{color:inherit; text-decoration:none;}
           <li><span class="mk"></span>Fix the product list</li>
           <li><span class="mk"></span>Make the whole thing a one-stop guideline the frontline can use</li>
         </ul>
-        <p class="delivered">Delivered as <b>four standalone, table-first sections (S1–S4)</b> that combine into a single market-entry playbook.</p>
+        <p class="delivered">Delivered as <b>five standalone, table-first sections (S1–S5)</b> that combine into a single market-entry playbook.</p>
       </div>
 
       <!-- the strategic conclusion -->
@@ -866,15 +875,15 @@ a{color:inherit; text-decoration:none;}
         </div>
         <div class="fb-row">
           <div class="fb-q">We need a detailed, multi-angle competitor analysis.</div>
-          <div class="fb-a"><span class="ck">✓</span><span><b>Section 1</b> — 8 brokers benchmarked across 9 dimensions, frontline-framed.</span></div>
+          <div class="fb-a"><span class="ck">✓</span><span><b>Section 2</b> — 8 brokers benchmarked across 9 dimensions, frontline-framed.</span></div>
         </div>
         <div class="fb-row">
           <div class="fb-q">This feeds local promotions &amp; campaigns.</div>
-          <div class="fb-a"><span class="ck">✓</span><span><b>Section 2</b> (retail) + <b>Section 3</b> (IB / partner), both grounded in live 2026 competitor campaigns.</span></div>
+          <div class="fb-a"><span class="ck">✓</span><span><b>Section 3</b> (retail) + <b>Section 4</b> (IB / partner), both grounded in live 2026 competitor campaigns.</span></div>
         </div>
         <div class="fb-row">
           <div class="fb-q">The doc lists products we don't actually offer.</div>
-          <div class="fb-a"><span class="ck">✓</span><span><b>Section 4</b> — product list verified against TMGM Trading data; corrections fed back into S1.</span></div>
+          <div class="fb-a"><span class="ck">✓</span><span><b>Section 5</b> — product list verified against TMGM Trading data; corrections fed back into S1.</span></div>
         </div>
         <div class="fb-row">
           <div class="fb-q">Make it a one-stop guideline.</div>
@@ -930,10 +939,115 @@ a{color:inherit; text-decoration:none;}
 <!-- S1 — COMPETITOR ANALYSIS -->
 <section class="s1sec" id="s1">
   <div class="wrap">
+    <div class="s1-open">
+      <div class="left">
+        <div class="sec-eyebrow"><span class="code">S1</span><span class="txt">LATAM Market Research</span></div>
+        <h2>Latin America is not a monolith.</h2>
+        <p class="intro">Our strategy starts with a country-tiered approach. The region's forex and CFD market is experiencing a structural shift — driven by inflation hedging, rising middle-class interest in alternative investments, and a boom in mobile fintech adoption.</p>
+        <div class="s1-quickstats">
+          <div class="qs"><div class="qn">6</div><div class="ql">Priority markets across three tiers</div></div>
+          <div class="qs"><div class="qn">2</div><div class="ql">Tier-1 core markets: Brazil &amp; Mexico</div></div>
+          <div class="qs"><div class="qn">4</div><div class="ql">Key trader pain points to solve</div></div>
+        </div>
+      </div>
+      <aside class="s1-toc s2-toc">
+        <div class="tl"><span class="tk"></span>In this section · four parts</div>
+        <a href="#s1-1"><span class="n">1.1</span><span class="t">Country Priority Tiers</span><span class="ar">→</span></a>
+        <a href="#s1-2"><span class="n">1.2</span><span class="t">LATAM Trader Profile</span><span class="ar">→</span></a>
+        <a href="#s1-3"><span class="n">1.3</span><span class="t">Brazil Income Split</span><span class="ar">→</span></a>
+        <a href="#s1-4"><span class="n">1.4</span><span class="t">Mexico Income Split</span><span class="ar">→</span></a>
+      </aside>
+    </div>
+
+    <div class="s1-block" id="s1-1">
+      <div class="block-head"><span class="num">1.1</span><div><h3>Country Priority Tiers</h3><p class="sub">We prioritise markets on the basis of maturity, digital infrastructure, fintech adoption, and the regulatory environment for offshore brokers.</p></div></div>
+      <div class="mid-h">Tier 1 — Primary Markets (Immediate Entry)</div>
+      <div class="ctable-wrap has-tips"><table class="ctable">
+        <thead><tr><th>Country</th><th>Population</th><th>Key Opportunity</th><th>Regulatory Note</th><th>Entry Tactic</th></tr></thead>
+        <tbody>
+          <tr><td class="bk">Brazil</td><td>215M</td><td>Largest economy; PIX<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Brazil's free, instant bank-transfer system — used by almost everyone to move money in seconds, any time of day.</span><span class="tl">If a broker supports PIX, deposits and withdrawals feel instant and local; without it, most Brazilians won't sign up.</span></span></span> payments; strong crypto &amp; equity culture; tech-savvy. Portuguese localisation is mandatory.</td><td>CVM<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Brazil's financial-markets regulator (Comissão de Valores Mobiliários) — the local equivalent of the US SEC.</span><span class="tl">It oversees brokers operating in Brazil and tightly restricts mass-market forex/CFD advertising.</span></span></span> oversees locally. Offshore structures<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Serving clients through a broker entity based in another country, rather than a locally-licensed one.</span><span class="tl">In Brazil this is broadly accepted for retail traders — it's how most international brokers operate there.</span></span></span> broadly accepted. PIX integration is critical.</td><td>Full Portuguese localisation. Finfluencer<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A finance influencer — a creator with a trading or investing audience on YouTube, Instagram or TikTok.</span><span class="tl">Where mass-market forex ads are restricted, finfluencers are one of the few legal ways to reach traders.</span></span></span>-led campaigns on YouTube &amp; Instagram.</td></tr>
+          <tr><td class="bk">Mexico</td><td>130M</td><td>USD/MXN demand; fintech boom; P2P<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Peer-to-peer — people transacting directly with each other (e.g. buying or selling crypto) instead of through a bank.</span><span class="tl">Common in Mexico; a sign people are comfortable moving money digitally, app-to-app.</span></span></span> economy; proximity to US market. Strong influencer economy.</td><td>CNBV<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Mexico's banking and securities regulator (Comisión Nacional Bancaria y de Valores).</span><span class="tl">It regulates local financial firms; offshore brokers are still widely used by Mexican retail traders.</span></span></span> regulates locally. Offshore brokers widely used by retail traders.</td><td>Video-first campaigns (TikTok + YouTube). Partner with trading academies in CDMX, GDL, MTY.</td></tr>
+        </tbody>
+      </table></div>
+      <div class="mid-h">Tier 2 — Secondary Markets (Month 6+)</div>
+      <div class="ctable-wrap has-tips"><table class="ctable">
+        <thead><tr><th>Country</th><th>Population</th><th>Key Opportunity</th><th>Entry Tactic</th></tr></thead>
+        <tbody>
+          <tr><td class="bk">Colombia</td><td>51M</td><td>Fast-growing digital penetration; educated middle class; appetite for financial education-led marketing.</td><td>Webinars, trading academies, IB<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Introducing Broker — a partner or affiliate who refers new clients to the broker for a commission.</span><span class="tl">The backbone of LATAM growth: trusted local partners and educators who bring traders in.</span></span></span> partnerships with local financial educators.</td></tr>
+          <tr><td class="bk">Argentina</td><td>46M</td><td>Currency volatility drives organic FX interest. Inflation creates natural demand for USD-based instruments.</td><td>Stability &amp; capital preservation messaging. IB network via local brokers.</td></tr>
+        </tbody>
+      </table></div>
+      <div class="mid-h">Tier 3 — Opportunistic Markets (Month 12+)</div>
+      <div class="ctable-wrap has-tips"><table class="ctable">
+        <thead><tr><th>Country</th><th>Population</th><th>Key Opportunity</th><th>Entry Tactic</th></tr></thead>
+        <tbody>
+          <tr><td class="bk">Chile</td><td>19M</td><td>Affluent, financially literate audience. Smaller but high-value client segment.</td><td>Premium brand positioning. Partner with local educators and family office networks.</td></tr>
+          <tr><td class="bk">Peru</td><td>33M</td><td>Rapidly growing internet penetration. Emerging market with early-mover advantage.</td><td>IB network roll-out with Spanish content. Facebook &amp; WhatsApp lead generation.</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="s1-block" id="s1-2">
+      <div class="block-head"><span class="num">1.2</span><div><h3>LATAM Trader Profile</h3></div></div>
+      <div class="we-grid">
+        <div class="we-col wins">
+          <div class="we-head"><span class="dot g"></span>What They Trade</div>
+          <div class="we-item first"><div class="we-dim">Forex majors</div><div class="we-read">especially USD/MXN and USD/BRL pairs</div></div>
+          <div class="we-item"><div class="we-dim">Major US indices</div><div class="we-read">S&amp;P 500 and Dow Jones Industrial Average</div></div>
+          <div class="we-item"><div class="we-dim">Gold CFDs<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Contract for Difference — a way to bet on a price rising or falling (gold, a stock, etc.) without owning the actual asset.</span><span class="tl">The core product most online brokers offer; lets traders go up or down, with leverage.</span></span></span></div><div class="we-read">widely favoured as a safe-haven instrument</div></div>
+          <div class="we-item"><div class="we-dim">Crypto</div><div class="we-read">increasingly a cornerstone offering; high demand across all demographics</div></div>
+          <div class="we-item"><div class="we-dim">US Stock CFDs<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A CFD that tracks a US share (Apple, Tesla, etc.); 'short-selling' means profiting when the price falls.</span><span class="tl">LATAM traders expect to short US stocks freely — a broker that can't offer this loses appeal.</span></span></span></div><div class="we-read">well-established and viewed favourably; LATAM traders are accustomed to free short-selling</div></div>
+        </div>
+        <div class="we-col exposed">
+          <div class="we-head"><span class="dot r"></span>Key Pain Points &amp; Barriers</div>
+          <div class="we-item first"><div class="we-dim">Low financial literacy</div><div class="we-read">most LATAM retail participants are first-generation traders. Education is the primary conversion unlock.</div></div>
+          <div class="we-item"><div class="we-dim">Trust deficit</div><div class="we-read">awareness of scams is high. ASIC<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Australia's financial regulator (Australian Securities and Investments Commission) — strict and well-respected.</span><span class="tl">TMGM's ASIC licence is a key trust signal in a region where scam-awareness is high.</span></span></span> regulation and transparent withdrawal processes are prerequisite trust signals.</div></div>
+          <div class="we-item"><div class="we-dim">Payment friction</div><div class="we-read">local PSP<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Payment Service Provider — the local rails that move money in and out, like PIX (Brazil) or SPEI (Mexico).</span><span class="tl">If these aren't supported, deposits fail at the final step and sign-ups are lost.</span></span></span> integration (PIX, SPEI) is a deal-breaker if absent.</div></div>
+          <div class="we-item"><div class="we-dim">Language</div><div class="we-read">Spanish and Portuguese support is non-negotiable. English-only platforms do not convert.</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="s1-block" id="s1-3">
+      <div class="block-head"><span class="num">1.3</span><div><h3>Brazil Income Split</h3></div></div>
+      <div class="ctable-wrap has-tips"><table class="ctable">
+        <thead><tr><th>Class</th><th>Monthly Income (USD)</th><th>% of Population</th><th>TMGM Relevance</th></tr></thead>
+        <tbody>
+          <tr><td class="bk">Class A (Top)</td><td>Above ~$5,650/mo</td><td>~1–2%</td><td>VIP / Gold account targets</td></tr>
+          <tr><td class="bk">Class B</td><td>$2,825 – $5,650/mo</td><td>~5–8%</td><td>High-value acquisition target</td></tr>
+          <tr><td class="bk">Class C (Middle)</td><td>$1,130 – $2,825/mo</td><td>~30–35%</td><td>Core target — aspirational, underserved</td></tr>
+          <tr><td class="bk">Class D</td><td>$565 – $1,130/mo</td><td>~30%</td><td>Entry-level; NDB<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">No-Deposit Bonus — a small trading credit given to a new client before they put in any of their own money.</span><span class="tl">A common hook to convert first-time or lower-income traders into active accounts.</span></span></span> and crypto hooks</td></tr>
+          <tr><td class="bk">Class E (Bottom)</td><td>Below $565/mo</td><td>~25–30%</td><td>Out of scope for now</td></tr>
+          <tr class="sumrow"><td class="bk">Top 10% income share<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">How much of a country's total income goes to one slice of the population (e.g. the richest 10%).</span><span class="tl">It shows how concentrated the wealth is — useful for sizing the realistic high-value client pool.</span></span></span></td><td>—</td><td>10% of people</td><td>Hold 53.7% of all national income</td></tr>
+          <tr class="sumrow"><td class="bk">Top 1% income share</td><td>—</td><td>1% of people</td><td>Hold ~24.6% of all national income</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="s1-block" id="s1-4">
+      <div class="block-head"><span class="num">1.4</span><div><h3>Mexico Income Split</h3></div></div>
+      <div class="ctable-wrap has-tips"><table class="ctable">
+        <thead><tr><th>Class</th><th>Monthly Income (USD)</th><th>% of Population</th><th>TMGM Relevance</th></tr></thead>
+        <tbody>
+          <tr><td class="bk">Upper class</td><td>Above ~$3,000/mo</td><td>~5–8%</td><td>Premium targets; already investing</td></tr>
+          <tr><td class="bk">Upper-middle</td><td>$1,500 – $3,000/mo</td><td>~12–15%</td><td>Strong acquisition target</td></tr>
+          <tr><td class="bk">Middle class</td><td>$600 – $1,500/mo</td><td>~25–30%</td><td>Core target — growing investment appetite</td></tr>
+          <tr><td class="bk">Lower-middle</td><td>$250 – $600/mo</td><td>~25%</td><td>Borderline; crypto/copy trading entry</td></tr>
+          <tr><td class="bk">Lower class</td><td>Below $250/mo</td><td>~30%</td><td>Out of scope</td></tr>
+          <tr class="sumrow"><td class="bk">Top 10% income share<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">How much of a country's total income goes to one slice of the population (e.g. the richest 10%).</span><span class="tl">It shows how concentrated the wealth is — useful for sizing the realistic high-value client pool.</span></span></span></td><td>~$5,300/mo avg</td><td>10% of people</td><td>Hold 57% of all national income</td></tr>
+          <tr class="sumrow"><td class="bk">Bottom 50% income share</td><td>~$170/mo avg</td><td>50% of people</td><td>Hold only 9.2% of national income</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </div>
+</section>
+
+<section class="s2sec" id="s2">
+  <div class="wrap">
 
     <div class="s1-open">
       <div class="left">
-        <span class="sec-eyebrow"><span class="code">S1</span><span class="txt">Competitor Analysis</span></span>
+        <span class="sec-eyebrow"><span class="code">S2</span><span class="txt">Competitor Analysis</span></span>
         <h2>The field that decides Brazil &amp; Mexico.</h2>
         <p class="intro">Latin America is not won on trading mechanics alone — it is won on localization. The brokers that dominate Brazil and Mexico did so by making deposits instant and local, the funnel native-language, and acquisition aggressive within the rules. The benchmark runs TMGM against that field across nine angles — and <b>the single most important takeaway sits in 1.6: TMGM's payments gap.</b></p>
         <div class="s1-quickstats">
@@ -950,21 +1064,21 @@ a{color:inherit; text-decoration:none;}
 
       <aside class="s1-toc" aria-label="In this section">
         <div class="tl"><span class="tk"></span>In this section · nine angles</div>
-        <a href="#s1-1"><span class="n">1.1</span><span class="t">The field</span><span class="ar">→</span></a>
-        <a href="#s1-2"><span class="n">1.2</span><span class="t">Regulatory standing &amp; trust</span><span class="ar">→</span></a>
-        <a href="#s1-3"><span class="n">1.3</span><span class="t">Account conditions &amp; cost</span><span class="ar">→</span></a>
-        <a href="#s1-4"><span class="n">1.4</span><span class="t">Product range &amp; crypto</span><span class="ar">→</span></a>
-        <a href="#s1-5"><span class="n">1.5</span><span class="t">Platforms &amp; tools</span><span class="ar">→</span></a>
-        <a href="#s1-6"><span class="n">1.6</span><span class="t">LATAM readiness — decisive</span><span class="ar">→</span></a>
-        <a href="#s1-7"><span class="n">1.7</span><span class="t">Promotions &amp; levers</span><span class="ar">→</span></a>
-        <a href="#s1-8"><span class="n">1.8</span><span class="t">Win vs exposed</span><span class="ar">→</span></a>
-        <a href="#s1-9"><span class="n">1.9</span><span class="t">Findings → action</span><span class="ar">→</span></a>
+        <a href="#s2-1"><span class="n">2.1</span><span class="t">The field</span><span class="ar">→</span></a>
+        <a href="#s2-2"><span class="n">2.2</span><span class="t">Regulatory standing &amp; trust</span><span class="ar">→</span></a>
+        <a href="#s2-3"><span class="n">2.3</span><span class="t">Account conditions &amp; cost</span><span class="ar">→</span></a>
+        <a href="#s2-4"><span class="n">2.4</span><span class="t">Product range &amp; crypto</span><span class="ar">→</span></a>
+        <a href="#s2-5"><span class="n">2.5</span><span class="t">Platforms &amp; tools</span><span class="ar">→</span></a>
+        <a href="#s2-6"><span class="n">2.6</span><span class="t">LATAM readiness — decisive</span><span class="ar">→</span></a>
+        <a href="#s2-7"><span class="n">2.7</span><span class="t">Promotions &amp; levers</span><span class="ar">→</span></a>
+        <a href="#s2-8"><span class="n">2.8</span><span class="t">Win vs exposed</span><span class="ar">→</span></a>
+        <a href="#s2-9"><span class="n">2.9</span><span class="t">Findings → action</span><span class="ar">→</span></a>
       </aside>
     </div>
 
     <!-- 1.1 -->
-    <div class="s1-block" id="s1-1">
-      <div class="block-head"><span class="num">1.1</span><div><h3>Who we're up against</h3><p class="sub">The competitive field and why each broker matters in LATAM.</p></div></div>
+    <div class="s1-block" id="s2-1">
+      <div class="block-head"><span class="num">2.1</span><div><h3>Who we're up against</h3><p class="sub">The competitive field and why each broker matters in LATAM.</p></div></div>
       <div class="comp-list">
         <div class="comp-row tmgm">
           <div class="comp-id"><span class="mono">T</span><div><div class="nm">TMGM<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Trademax Global Markets, 'us', the broker this whole plan is for.</span><span class="tl">Strong on trading mechanics and brand, but not yet set up for local Latin-American payments.</span></span></span></div><div class="mt">2013 · Sydney</div></div></div>
@@ -1005,8 +1119,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 1.2 -->
-    <div class="s1-block" id="s1-2">
-      <div class="block-head"><span class="num">1.2</span><div><h3>Regulatory standing &amp; trust</h3><p class="sub">All high-leverage brokers serve LATAM via offshore entities — so the real contest is trust signalling, not licence prestige.</p></div></div>
+    <div class="s1-block" id="s2-2">
+      <div class="block-head"><span class="num">2.2</span><div><h3>Regulatory standing &amp; trust</h3><p class="sub">All high-leverage brokers serve LATAM via offshore entities — so the real contest is trust signalling, not licence prestige.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>Broker</th><th>Key regulators</th><th>LATAM onboarding entity</th><th>Trust signal</th></tr></thead>
         <tbody>
@@ -1022,8 +1136,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 1.3 -->
-    <div class="s1-block" id="s1-3">
-      <div class="block-head"><span class="num">1.3</span><div><h3>Account conditions &amp; cost</h3><p class="sub">Best-account, offshore conditions — the comparison relevant to LATAM clients.</p></div></div>
+    <div class="s1-block" id="s2-3">
+      <div class="block-head"><span class="num">2.3</span><div><h3>Account conditions &amp; cost</h3><p class="sub">Best-account, offshore conditions — the comparison relevant to LATAM clients.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>Broker</th><th>Min deposit</th><th>Max leverage</th><th>EUR/USD (best)</th><th>Commission</th><th>Inactivity fee</th></tr></thead>
         <tbody>
@@ -1040,8 +1154,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 1.4 -->
-    <div class="s1-block" id="s1-4">
-      <div class="block-head"><span class="num">1.4</span><div><h3>Product range &amp; crypto</h3><p class="sub">Breadth of instruments, equities depth, and — critically for LATAM — crypto coverage.</p></div></div>
+    <div class="s1-block" id="s2-4">
+      <div class="block-head"><span class="num">2.4</span><div><h3>Product range &amp; crypto</h3><p class="sub">Breadth of instruments, equities depth, and — critically for LATAM — crypto coverage.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>Broker</th><th>Total instruments</th><th>Share / stock CFDs</th><th>Crypto breadth</th><th>Standout / note</th></tr></thead>
         <tbody>
@@ -1058,8 +1172,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 1.5 -->
-    <div class="s1-block" id="s1-5">
-      <div class="block-head"><span class="num">1.5</span><div><h3>Platforms &amp; tools</h3><p class="sub">Trading stacks, copy/social capability, and execution.</p></div></div>
+    <div class="s1-block" id="s2-5">
+      <div class="block-head"><span class="num">2.5</span><div><h3>Platforms &amp; tools</h3><p class="sub">Trading stacks, copy/social capability, and execution.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>Broker</th><th>Platforms</th><th>Copy / social trading</th><th>Execution</th></tr></thead>
         <tbody>
@@ -1075,8 +1189,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 1.6 -->
-    <div class="s1-block" id="s1-6">
-      <div class="block-head"><span class="num">1.6</span><div><h3>LATAM market readiness — the decisive scorecard</h3><p class="sub">Local payments, account currency, and language — the dimensions that decide the funded account.</p></div></div>
+    <div class="s1-block" id="s2-6">
+      <div class="block-head"><span class="num">2.6</span><div><h3>LATAM market readiness — the decisive scorecard</h3><p class="sub">Local payments, account currency, and language — the dimensions that decide the funded account.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>Broker</th><th>PIX (Brazil)</th><th>SPEI / OXXO (Mexico)</th><th>BRL / MXN accounts</th><th>PT / ES support</th></tr></thead>
         <tbody>
@@ -1093,8 +1207,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 1.7 -->
-    <div class="s1-block" id="s1-7">
-      <div class="block-head"><span class="num">1.7</span><div><h3>Promotions &amp; acquisition levers</h3><p class="sub">The offers and partner economics that actually drive LATAM acquisition.</p></div></div>
+    <div class="s1-block" id="s2-7">
+      <div class="block-head"><span class="num">2.7</span><div><h3>Promotions &amp; acquisition levers</h3><p class="sub">The offers and partner economics that actually drive LATAM acquisition.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>Broker</th><th>No-deposit bonus</th><th>Deposit bonus / cashback</th><th>Referral</th><th>IB / affiliate</th></tr></thead>
         <tbody>
@@ -1111,8 +1225,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 1.8 -->
-    <div class="s1-block" id="s1-8">
-      <div class="block-head"><span class="num">1.8</span><div><h3>Where TMGM wins vs where TMGM is exposed</h3><p class="sub">The at-a-glance scorecard: strengths to lead with, gaps to close.</p></div></div>
+    <div class="s1-block" id="s2-8">
+      <div class="block-head"><span class="num">2.8</span><div><h3>Where TMGM wins vs where TMGM is exposed</h3><p class="sub">The at-a-glance scorecard: strengths to lead with, gaps to close.</p></div></div>
       <div class="we-grid">
         <div class="we-col wins">
           <div class="we-head"><span class="dot g"></span>Where TMGM wins</div>
@@ -1134,8 +1248,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 1.9 -->
-    <div class="s1-block" id="s1-9">
-      <div class="block-head"><span class="num">1.9</span><div><h3>Key findings → recommended action</h3><p class="sub">Every finding mapped to why it matters and who should own the fix.</p></div></div>
+    <div class="s1-block" id="s2-9">
+      <div class="block-head"><span class="num">2.9</span><div><h3>Key findings → recommended action</h3><p class="sub">Every finding mapped to why it matters and who should own the fix.</p></div></div>
       <div class="find-grid">
         <div class="find-card gating">
           <span class="owner">Payments · #1</span>
@@ -1199,12 +1313,12 @@ a{color:inherit; text-decoration:none;}
 </section>
 
 <!-- S2 — RETAIL PROMO -->
-<section class="s2sec" id="s2">
+<section class="s3sec" id="s3">
   <div class="wrap">
 
     <div class="s1-open">
       <div class="left">
-        <span class="sec-eyebrow"><span class="code">S2</span><span class="txt">Retail Promo &amp; Campaign Ideas</span></span>
+        <span class="sec-eyebrow"><span class="code">S3</span><span class="txt">Retail Promo &amp; Campaign Ideas</span></span>
         <h2>The plays that win LATAM retail.</h2>
         <p class="intro">The LATAM CFD battleground is now won on localized, payment-linked instant rewards (PIX/SPEI), big-prize trading championships, and copy/social-trading viral loops — not on small static bonuses. TMGM's current levers look competitive on paper but are undermined by structural gaps the promo layer can't fix. The plan anchors on the live competitor reality, then a <b>70 / 30 acquisition-to-reactivation architecture</b> with a flagship championship built on Chelsea FC + Brooklyn Nets IP.</p>
         <div class="split7030">
@@ -1222,20 +1336,20 @@ a{color:inherit; text-decoration:none;}
 
       <aside class="s1-toc s2-toc" aria-label="In this section">
         <div class="tl"><span class="tk"></span>In this section · eight angles</div>
-        <a href="#s2-1"><span class="n">2.1</span><span class="t">Live competitor campaigns</span><span class="ar">→</span></a>
-        <a href="#s2-2"><span class="n">2.2</span><span class="t">TMGM's levers vs market</span><span class="ar">→</span></a>
-        <a href="#s2-3"><span class="n">2.3</span><span class="t">What converts — by market</span><span class="ar">→</span></a>
-        <a href="#s2-4"><span class="n">2.4</span><span class="t">Acquisition playbook</span><span class="ar">→</span></a>
-        <a href="#s2-5"><span class="n">2.5</span><span class="t">Retention playbook</span><span class="ar">→</span></a>
-        <a href="#s2-6"><span class="n">2.6</span><span class="t">Innovative / FOMO</span><span class="ar">→</span></a>
-        <a href="#s2-7"><span class="n">2.7</span><span class="t">Regulatory guardrails</span><span class="ar">→</span></a>
-        <a href="#s2-8"><span class="n">2.8</span><span class="t">Rollout &amp; KPIs</span><span class="ar">→</span></a>
+        <a href="#s3-1"><span class="n">3.1</span><span class="t">Live competitor campaigns</span><span class="ar">→</span></a>
+        <a href="#s3-2"><span class="n">3.2</span><span class="t">TMGM's levers vs market</span><span class="ar">→</span></a>
+        <a href="#s3-3"><span class="n">3.3</span><span class="t">What converts — by market</span><span class="ar">→</span></a>
+        <a href="#s3-4"><span class="n">3.4</span><span class="t">Acquisition playbook</span><span class="ar">→</span></a>
+        <a href="#s3-5"><span class="n">3.5</span><span class="t">Retention playbook</span><span class="ar">→</span></a>
+        <a href="#s3-6"><span class="n">3.6</span><span class="t">Innovative / FOMO</span><span class="ar">→</span></a>
+        <a href="#s3-7"><span class="n">3.7</span><span class="t">Regulatory guardrails</span><span class="ar">→</span></a>
+        <a href="#s3-8"><span class="n">3.8</span><span class="t">Rollout &amp; KPIs</span><span class="ar">→</span></a>
       </aside>
     </div>
 
     <!-- 2.1 -->
-    <div class="s1-block" id="s2-1">
-      <div class="block-head"><span class="num">2.1</span><div><h3>Live competitor campaigns — what TMGM is up against</h3><p class="sub">Real, currently-running 2026 campaigns. This is the anchor: leadership should see the live battlefield first.</p></div></div>
+    <div class="s1-block" id="s3-1">
+      <div class="block-head"><span class="num">3.1</span><div><h3>Live competitor campaigns — what TMGM is up against</h3><p class="sub">Real, currently-running 2026 campaigns. This is the anchor: leadership should see the live battlefield first.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>Broker</th><th>Live 2026 campaign / mechanic</th><th>Offer specifics</th><th>LATAM angle</th></tr></thead>
         <tbody>
@@ -1255,8 +1369,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 2.2 -->
-    <div class="s1-block" id="s2-2">
-      <div class="block-head"><span class="num">2.2</span><div><h3>TMGM's levers vs the market</h3><p class="sub">Where TMGM's current promo toolkit stands — and the single biggest white space.</p></div></div>
+    <div class="s1-block" id="s3-2">
+      <div class="block-head"><span class="num">3.2</span><div><h3>TMGM's levers vs the market</h3><p class="sub">Where TMGM's current promo toolkit stands — and the single biggest white space.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>TMGM lever today</th><th>Market benchmark</th><th>Verdict</th></tr></thead>
         <tbody>
@@ -1271,8 +1385,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 2.3 -->
-    <div class="s1-block" id="s2-3">
-      <div class="block-head"><span class="num">2.3</span><div><h3>What actually converts — by market</h3><p class="sub">The highest-leverage hook and cultural timing for each priority market.</p></div></div>
+    <div class="s1-block" id="s3-3">
+      <div class="block-head"><span class="num">3.3</span><div><h3>What actually converts — by market</h3><p class="sub">The highest-leverage hook and cultural timing for each priority market.</p></div></div>
       <div class="mkt-grid">
         <div class="mkt-card">
           <div class="mh"><span class="cc">BR</span><h4>Brazil<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">PIX is Brazil's instant phone-payment system, used by ~93% of adults — so instant deposits and withdrawals are the #1 hook.</span><span class="tl">Time campaigns around the '13th salary' (an extra month's pay every December), Carnival, and football season.</span></span></span></h4><span class="tier core">Core · Tier 1</span></div>
@@ -1299,8 +1413,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 2.4 -->
-    <div class="s1-block" id="s2-4">
-      <div class="block-head"><span class="num">2.4</span><div><h3>Acquisition playbook</h3><p class="sub">Six plays to win NEW traders — led by the flagship championship (A1).</p></div><span class="wt acq">70% of weight &amp; budget</span></div>
+    <div class="s1-block" id="s3-4">
+      <div class="block-head"><span class="num">3.4</span><div><h3>Acquisition playbook</h3><p class="sub">Six plays to win NEW traders — led by the flagship championship (A1).</p></div><span class="wt acq">70% of weight &amp; budget</span></div>
       <div class="hero-play">
         <div class="hp-l">
           <span class="hp-badge">★ Hero play</span>
@@ -1343,8 +1457,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 2.5 -->
-    <div class="s1-block" id="s2-5">
-      <div class="block-head"><span class="num">2.5</span><div><h3>Reactivation &amp; retention playbook</h3><p class="sub">Four plays to keep active traders and win back dormant ones.</p></div><span class="wt ret">30% of weight</span></div>
+    <div class="s1-block" id="s3-5">
+      <div class="block-head"><span class="num">3.5</span><div><h3>Reactivation &amp; retention playbook</h3><p class="sub">Four plays to keep active traders and win back dormant ones.</p></div><span class="wt ret">30% of weight</span></div>
       <div class="ret-grid">
         <div class="ret-card">
           <div class="mh"><span class="cc">R1</span><h4>No-cap withdrawable cashback (counter XM)<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Cashback means traders get a little money back on every trade — like cash-back on a credit card.</span><span class="tl">Ours would have no upper limit, can be taken out as real cash (not locked in), and runs in set periods — built to stop active traders leaving for XM.</span></span></span></h4></div>
@@ -1370,8 +1484,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 2.6 -->
-    <div class="s1-block" id="s2-6">
-      <div class="block-head"><span class="num">2.6</span><div><h3>Innovative / FOMO concepts</h3><p class="sub">The cutting-edge layer — mechanics that create genuine urgency and desire to join.</p></div></div>
+    <div class="s1-block" id="s3-6">
+      <div class="block-head"><span class="num">3.6</span><div><h3>Innovative / FOMO concepts</h3><p class="sub">The cutting-edge layer — mechanics that create genuine urgency and desire to join.</p></div></div>
       <div class="fomo-grid">
         <div class="fomo-card"><div class="fn">Live-media leaderboard championships<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A leaderboard is a live ranking of who's winning a trading contest — like a scoreboard at a sports match everyone can watch.</span><span class="tl">Streaming it live, with creator commentary and letting viewers copy the top traders' moves, turns the contest itself into content people tune in for.</span></span></span></div><div class="fd">Turn the contest into content — live standings, creator commentary, copy-along (EBC plays this well).</div></div>
         <div class="fomo-card"><div class="fn">Limited-time "deposit drops"<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A 'drop' is a limited-time offer with only so many spots — the same idea as a limited sneaker release or concert-ticket sale.</span><span class="tl">Countdowns and 'only a few slots left' messaging create urgency, so people sign up now instead of putting it off.</span></span></span></div><div class="fd">Drop-culture scarcity: countdowns, capped allocations, "while slots last".</div></div>
@@ -1382,8 +1496,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 2.7 -->
-    <div class="s1-block" id="s2-7">
-      <div class="block-head"><span class="num">2.7</span><div><h3>Regulatory guardrails for promotions</h3><p class="sub">What is safe to advertise vs what triggers regulatory risk — Brazil is the strictest.</p></div></div>
+    <div class="s1-block" id="s3-7">
+      <div class="block-head"><span class="num">3.7</span><div><h3>Regulatory guardrails for promotions</h3><p class="sub">What is safe to advertise vs what triggers regulatory risk — Brazil is the strictest.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>Market</th><th>Guardrail</th><th>Safe approach</th></tr></thead>
         <tbody>
@@ -1396,8 +1510,8 @@ a{color:inherit; text-decoration:none;}
     </div>
 
     <!-- 2.8 -->
-    <div class="s1-block" id="s2-8">
-      <div class="block-head"><span class="num">2.8</span><div><h3>Staged rollout &amp; KPIs</h3><p class="sub">Sequenced so structural prerequisites land before campaign spend.</p></div></div>
+    <div class="s1-block" id="s3-8">
+      <div class="block-head"><span class="num">3.8</span><div><h3>Staged rollout &amp; KPIs</h3><p class="sub">Sequenced so structural prerequisites land before campaign spend.</p></div></div>
       <div class="timeline">
         <div class="tl-stage gate">
           <span class="tl-node"></span>
@@ -1466,12 +1580,12 @@ a{color:inherit; text-decoration:none;}
 
 
 <!-- ===================== S3 — IB / PARTNER PROMO ===================== -->
-<section class="s3sec" id="s3">
+<section class="s4sec" id="s4">
   <div class="wrap">
 
     <div class="s1-open">
       <div class="left">
-        <span class="sec-eyebrow"><span class="code">S3</span><span class="txt">IB / Partner Promo Strategy</span></span>
+        <span class="sec-eyebrow"><span class="code">S4</span><span class="txt">IB / Partner Promo Strategy</span></span>
         <h2>The partner program is the distribution system.</h2>
         <p class="intro">In Brazil, CVM bans mass-market forex advertising — so the IB and finfluencer channel is the <b>only legal route to a funded account</b>. That makes partner-program competitiveness existential, not optional. Rivals already know it: Exness runs Team Pro on instant PIX payouts, XM scaled to <b>250k partners</b>, Octa reached 50k IBs on $12/lot overrides. TMGM’s economics can compete — but its un-copyable edge is the <b>Chelsea FC + Brooklyn Nets IP</b>, which must anchor recruitment and top-tier retention.</p>
         <div class="s1-quickstats">
@@ -1488,22 +1602,22 @@ a{color:inherit; text-decoration:none;}
 
       <aside class="s1-toc s3-toc" aria-label="In this section">
         <div class="tl"><span class="tk"></span>In this section · twelve parts</div>
-        <a href="#s3-1"><span class="n">3.1</span><span class="t">Why the channel is existential</span><span class="ar">→</span></a>
-        <a href="#s3-2"><span class="n">3.2</span><span class="t">Live competitor benchmark</span><span class="ar">→</span></a>
-        <a href="#s3-3"><span class="n">3.3</span><span class="t">TMGM’s program vs the market</span><span class="ar">→</span></a>
-        <a href="#s3-4"><span class="n">3.4</span><span class="t">How recruitment works in LATAM</span><span class="ar">→</span></a>
-        <a href="#s3-5"><span class="n">3.5</span><span class="t">What makes IBs switch</span><span class="ar">→</span></a>
-        <a href="#s3-6"><span class="n">3.6</span><span class="t">Regulatory guardrails</span><span class="ar">→</span></a>
-        <a href="#s3-7"><span class="n">3.7</span><span class="t">Innovative concepts &amp; the moat</span><span class="ar">→</span></a>
-        <a href="#s3-8"><span class="n">3.8</span><span class="t">Staged rollout &amp; triggers</span><span class="ar">→</span></a>
-        <a href="#s3-9"><span class="n">3.9</span><span class="t">Proposed IB commission ladder</span><span class="ar">→</span></a>
-        <a href="#s3-10"><span class="n">3.10</span><span class="t">Proposed ambassador deal tiers</span><span class="ar">→</span></a>
-        <a href="#s3-11"><span class="n">3.11</span><span class="t">Proposed referral upgrade</span><span class="ar">→</span></a>
-        <a href="#s3-12"><span class="n">3.12</span><span class="t">Sub-IB override &amp; IB contest</span><span class="ar">→</span></a>
+        <a href="#s4-1"><span class="n">4.1</span><span class="t">Why the channel is existential</span><span class="ar">→</span></a>
+        <a href="#s4-2"><span class="n">4.2</span><span class="t">Live competitor benchmark</span><span class="ar">→</span></a>
+        <a href="#s4-3"><span class="n">4.3</span><span class="t">TMGM’s program vs the market</span><span class="ar">→</span></a>
+        <a href="#s4-4"><span class="n">4.4</span><span class="t">How recruitment works in LATAM</span><span class="ar">→</span></a>
+        <a href="#s4-5"><span class="n">4.5</span><span class="t">What makes IBs switch</span><span class="ar">→</span></a>
+        <a href="#s4-6"><span class="n">4.6</span><span class="t">Regulatory guardrails</span><span class="ar">→</span></a>
+        <a href="#s4-7"><span class="n">4.7</span><span class="t">Innovative concepts &amp; the moat</span><span class="ar">→</span></a>
+        <a href="#s4-8"><span class="n">4.8</span><span class="t">Staged rollout &amp; triggers</span><span class="ar">→</span></a>
+        <a href="#s4-9"><span class="n">4.9</span><span class="t">Proposed IB commission ladder</span><span class="ar">→</span></a>
+        <a href="#s4-10"><span class="n">4.10</span><span class="t">Proposed ambassador deal tiers</span><span class="ar">→</span></a>
+        <a href="#s4-11"><span class="n">4.11</span><span class="t">Proposed referral upgrade</span><span class="ar">→</span></a>
+        <a href="#s4-12"><span class="n">4.12</span><span class="t">Sub-IB override &amp; IB contest</span><span class="ar">→</span></a>
       </aside>
     </div>
 
-    <div class="s3-why" id="s3-1">
+    <div class="s3-why" id="s4-1">
       <div class="wq">3.1 · Why the partner channel is existential</div>
       <h3>Headline rate is just the price of entry. Three axes win the deal.</h3>
       <p class="lead">These are what a knowledgeable LATAM IB actually weighs when choosing a broker first. Two are gaps TMGM must close; the third is the one thing no rival in the region can copy.</p>
@@ -1514,8 +1628,8 @@ a{color:inherit; text-decoration:none;}
       </div>
     </div>
 
-    <div class="s1-block" id="s3-2">
-      <div class="block-head"><span class="num">3.2</span><div><h3>Live competitor IB / partner programs — the benchmark</h3><p class="sub">Real, currently-offered partner economics. The anchor: leadership should see the live battlefield first.</p></div></div>
+    <div class="s1-block" id="s4-2">
+      <div class="block-head"><span class="num">4.2</span><div><h3>Live competitor IB / partner programs — the benchmark</h3><p class="sub">Real, currently-offered partner economics. The anchor: leadership should see the live battlefield first.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>Broker</th><th>CPA (max)</th><th>Rev-share / per-lot</th><th>Sub-IB override</th><th>Payout cadence / min</th><th>LATAM notes</th></tr></thead>
         <tbody>
@@ -1536,8 +1650,8 @@ a{color:inherit; text-decoration:none;}
       <p class="tnote"><b>“Up to” figures are headline maximums</b> (best geo/tier); negotiated rates are lower. Several per-lot figures come from rebate aggregators, not official broker terms — re-verify before quoting externally.</p>
     </div>
 
-    <div class="s1-block" id="s3-3">
-      <div class="block-head"><span class="num">3.3</span><div><h3>TMGM’s program vs the market</h3><p class="sub">Where TMGM’s current partner toolkit stands — the gaps to close and the moat to lead with.</p></div></div>
+    <div class="s1-block" id="s4-3">
+      <div class="block-head"><span class="num">4.3</span><div><h3>TMGM’s program vs the market</h3><p class="sub">Where TMGM’s current partner toolkit stands — the gaps to close and the moat to lead with.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>TMGM lever today</th><th>Market benchmark</th><th>Verdict</th></tr></thead>
         <tbody>
@@ -1553,8 +1667,8 @@ a{color:inherit; text-decoration:none;}
       </table></div>
     </div>
 
-    <div class="s1-block" id="s3-4">
-      <div class="block-head"><span class="num">3.4</span><div><h3>How partner recruitment actually works in LATAM</h3><p class="sub">The channels and events where IBs and finfluencers are recruited.</p></div></div>
+    <div class="s1-block" id="s4-4">
+      <div class="block-head"><span class="num">4.4</span><div><h3>How partner recruitment actually works in LATAM</h3><p class="sub">The channels and events where IBs and finfluencers are recruited.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>Channel / venue</th><th>Detail</th></tr></thead>
         <tbody>
@@ -1577,8 +1691,8 @@ a{color:inherit; text-decoration:none;}
       </table></div>
     </div>
 
-    <div class="s1-block" id="s3-5">
-      <div class="block-head"><span class="num">3.5</span><div><h3>What makes IBs choose or switch brokers</h3><p class="sub">The decision factors, in rough priority order — and where TMGM stands on each.</p></div></div>
+    <div class="s1-block" id="s4-5">
+      <div class="block-head"><span class="num">4.5</span><div><h3>What makes IBs choose or switch brokers</h3><p class="sub">The decision factors, in rough priority order — and where TMGM stands on each.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>Decision factor</th><th>Why it matters</th><th>TMGM position</th></tr></thead>
         <tbody>
@@ -1594,8 +1708,8 @@ a{color:inherit; text-decoration:none;}
       <p class="tnote">The headline: <b>payout reliability and local-rail speed outrank headline rate.</b> A partner who waits 60 days for a manual payout moves volume to a broker paying weekly via a clean portal.</p>
     </div>
 
-    <div class="s1-block" id="s3-6">
-      <div class="block-head"><span class="num">3.6</span><div><h3>Regulatory guardrails for partner programs</h3><p class="sub">Brazil is the strictest — and CVM enforcement now explicitly reaches IBs and partners.</p></div></div>
+    <div class="s1-block" id="s4-6">
+      <div class="block-head"><span class="num">4.6</span><div><h3>Regulatory guardrails for partner programs</h3><p class="sub">Brazil is the strictest — and CVM enforcement now explicitly reaches IBs and partners.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
         <thead><tr><th>Market</th><th>Guardrail</th><th>Safe approach</th></tr></thead>
         <tbody>
@@ -1607,9 +1721,9 @@ a{color:inherit; text-decoration:none;}
       </table></div>
     </div>
 
-    <div class="s1-block" id="s3-7">
+    <div class="s1-block" id="s4-7">
         <div class="block-head">
-          <span class="num">3.7</span>
+          <span class="num">4.7</span>
           <div>
             <h3>Innovative concepts &amp; the un-copyable moat</h3>
             <p class="sub">Cutting-edge partner mechanics — led by the Chelsea FC / Brooklyn Nets hook no rival can match.</p>
@@ -1644,9 +1758,9 @@ a{color:inherit; text-decoration:none;}
         </div>
       </div>
 
-        <div class="s1-block" id="s3-8">
+        <div class="s1-block" id="s4-8">
         <div class="block-head">
-          <span class="num">3.8</span>
+          <span class="num">4.8</span>
           <div>
             <h3>Staged rollout &amp; triggers</h3>
             <p class="sub">Sequenced so table-stakes gaps close before the differentiated and moat layers deploy.</p>
@@ -1689,14 +1803,14 @@ a{color:inherit; text-decoration:none;}
         </div>
       </div>
 
-        <div class="menu-divider" id="s3-menu">
+        <div class="menu-divider" id="s4-menu">
         <span class="mbadge">Partner Promo Menu</span>
         <h3>Proposed offers leadership can react to</h3>
         <p>The tables below translate the strategy above into concrete, proposed offers. All figures are illustrative proposals calibrated against the competitor benchmark in 3.2 — they require commercial sign-off and cost-modelling before launch, and all payouts assume the instant PIX/SPEI rails from Stage 1.</p>
       </div>
 
-        <div class="s1-block" id="s3-9">
-        <div class="block-head"><span class="num">3.9</span><div><h3>Proposed IB commission tier ladder</h3><p class="sub">A transparent Bronze→Elite ladder with escalating economics — the structure to recruit and retain IBs.</p></div></div>
+        <div class="s1-block" id="s4-9">
+        <div class="block-head"><span class="num">4.9</span><div><h3>Proposed IB commission tier ladder</h3><p class="sub">A transparent Bronze→Elite ladder with escalating economics — the structure to recruit and retain IBs.</p></div></div>
         <div class="ctable-wrap has-tips"><table class="ctable">
           <thead><tr><th>Tier</th><th>Qualify (monthly)</th><th>Rebate / lot</th><th>Rev-share</th><th>CPA option</th><th>Headline perk</th></tr></thead>
           <tbody>
@@ -1710,8 +1824,8 @@ a{color:inherit; text-decoration:none;}
         <p class="tnote">Partners choose CPA <b>or</b> rebate/rev-share (hybrid 20/80, 50/50, 80/20 splits available). All tiers paid instantly via PIX (BR) / SPEI (MX). Rates are <b>proposals</b> calibrated to the 3.2 benchmark — commercial sign-off + cost-modelling required before launch.</p>
       </div>
 
-        <div class="s1-block" id="s3-10">
-        <div class="block-head"><span class="num">3.10</span><div><h3>Proposed finfluencer / ambassador deal tiers</h3><p class="sub">Three tiers from long-tail creators to premium “TMGM Pro” ambassadors.</p></div></div>
+        <div class="s1-block" id="s4-10">
+        <div class="block-head"><span class="num">4.10</span><div><h3>Proposed finfluencer / ambassador deal tiers</h3><p class="sub">Three tiers from long-tail creators to premium “TMGM Pro” ambassadors.</p></div></div>
         <div class="ctable-wrap has-tips"><table class="ctable">
           <thead><tr><th>Tier</th><th>Profile</th><th>Deal structure</th><th>Indicative value</th><th>Sports-IP perk</th></tr></thead>
           <tbody>
@@ -1723,8 +1837,8 @@ a{color:inherit; text-decoration:none;}
         <p class="tnote">Prioritise niche educators (55–70% 90-day retention) over celebrities. Every deal mandates “paid partner / not investment advice” disclosures and reverse-solicitation framing.</p>
       </div>
 
-        <div class="s1-block" id="s3-11">
-        <div class="block-head"><span class="num">3.11</span><div><h3>Proposed referral programme upgrade</h3><p class="sub">Replacing the weak $25 referral with a competitive, double-sided, instant-payout structure.</p></div></div>
+        <div class="s1-block" id="s4-11">
+        <div class="block-head"><span class="num">4.11</span><div><h3>Proposed referral programme upgrade</h3><p class="sub">Replacing the weak $25 referral with a competitive, double-sided, instant-payout structure.</p></div></div>
         <div class="ctable-wrap has-tips"><table class="ctable">
           <thead><tr><th>Element</th><th>Current</th><th>Proposed</th></tr></thead>
           <tbody>
@@ -1736,8 +1850,8 @@ a{color:inherit; text-decoration:none;}
         </table></div>
       </div>
 
-        <div class="s1-block" id="s3-12">
-        <div class="block-head"><span class="num">3.12</span><div><h3>Proposed sub-IB override &amp; IB contest</h3><p class="sub">The network-scaling engine, topped with a sports-IP grand prize.</p></div></div>
+        <div class="s1-block" id="s4-12">
+        <div class="block-head"><span class="num">4.12</span><div><h3>Proposed sub-IB override &amp; IB contest</h3><p class="sub">The network-scaling engine, topped with a sports-IP grand prize.</p></div></div>
         <div class="ctable-wrap has-tips"><table class="ctable">
           <thead><tr><th>Mechanic</th><th>Structure</th></tr></thead>
           <tbody>
@@ -1755,77 +1869,130 @@ a{color:inherit; text-decoration:none;}
 </section>
 
 
-<section class="s4sec" id="s4">
+<section class="s5sec" id="s5">
   <div class="wrap">
     <div class="s1-open">
       <div class="left">
-        <div class="sec-eyebrow"><span class="code">S4</span><span class="txt">Product Offering</span></div>
-        <h2>The product baseline — confirmed, not assumed.</h2>
-        <p class="intro">The accurate product baseline the review called for: a verified list of what TMGM actually offers LATAM / offshore clients, so the go-to-market materials never over-claim. The headline corrections are crypto breadth (<b>8 coins confirmed</b>, not the ~12 previously assumed) and equities (<b>HK-listed stocks plus US ETFs</b> — no US single-stock CFDs such as Apple, Tesla or Nvidia in the current offering).</p>
+        <div class="sec-eyebrow"><span class="code">S5</span><span class="txt">Product &amp; Tools Gap</span></div>
+        <h2>Strong on the fundamentals — exposed on AI, platforms and social.</h2>
+        <p class="intro">TMGM is competitive on the fundamentals: MT4/5/IRESS, the HUBx copy + MAM portal, free VPS, Trading Central and Acuity research, sub-30ms execution and negative-balance protection. But the market has moved, and TMGM is now behind on <b>three fast-evolving fronts</b>: proprietary AI tooling, modern platforms (cTrader / TradingView), and a true first-party social-trading network. This section sizes those gaps against the full global field.</p>
         <div class="s1-quickstats">
-          <div class="qs"><div class="qn">40</div><div class="ql">Confirmed instruments live for LATAM/offshore<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Instruments are simply the things you can trade here — coins, currency pairs, indices, metals, and so on.</span><span class="tl">40 are confirmed live for offshore clients, taken straight from TMGM's Trading data so nothing is over-claimed.</span></span></span></div></div>
-          <div class="qs"><div class="qn">8</div><div class="ql">Crypto coins — not the ~12 once assumed<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Earlier drafts assumed about 12 crypto coins; the verified number is 8.</span><span class="tl">Getting this exactly right was one of the CEO's specific accuracy points.</span></span></span></div></div>
-          <div class="qs"><div class="qn">0</div><div class="ql">US single-stock CFDs in the live set<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">TMGM does not currently offer individual US shares like Apple, Tesla or Nvidia to offshore clients.</span><span class="tl">The live equity set is Hong-Kong shares plus US ETFs — a gap flagged for Trading.</span></span></span></div></div>
+          <div class="qs"><div class="qn">3</div><div class="ql">Priority capability gaps: AI, platforms, social<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The three areas where rivals have pulled clearly ahead of TMGM: AI, modern platforms, and social trading.</span><span class="tl">Ranked by urgency in this section, with AI as the most pressing.</span></span></span></div></div>
+          <div class="qs"><div class="qn">0</div><div class="ql">Proprietary AI tools — only resold Acuity signals<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">TMGM has no AI assistant, no AI automation, and no AI agents of its own.</span><span class="tl">Its only AI is a bought-in third-party feed (Acuity); rivals like eToro and XM built their own.</span></span></span></div></div>
+          <div class="qs"><div class="qn">15</div><div class="ql">Capabilities benchmarked vs the global field<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">We scored TMGM on 15 product and tool capabilities against the wider market.</span><span class="tl">Green means TMGM has it, amber means partial, red means a gap.</span></span></span></div></div>
         </div>
         <div class="legend">
-          <span class="lg b"><span class="sw b"></span>Confirmed live — from TMGM Trading data</span>
-          <span class="lg a"><span class="sw a"></span>To confirm — competitors offer; Trading to evaluate</span>
+          <span class="lg g"><span class="sw g"></span>TMGM has it / a strength</span>
+          <span class="lg a"><span class="sw a"></span>Partial — some of it, or only via a third party</span>
+          <span class="lg r"><span class="sw r"></span>A gap — the market offers it, TMGM doesn't</span>
         </div>
       </div>
       <aside class="s1-toc s4-toc">
-        <div class="tl"><span class="tk"></span>In this section · nine angles</div>
-        <a href="#s4-1"><span class="n">4.1</span><span class="t">Product range at a glance</span><span class="ar">→</span></a>
-        <a href="#s4-2"><span class="n">4.2</span><span class="t">Confirmed instruments — full list</span><span class="ar">→</span></a>
-        <a href="#s4-3"><span class="n">4.3</span><span class="t">Gaps to confirm with Trading</span><span class="ar">→</span></a>
+        <div class="tl"><span class="tk"></span>In this section · five parts</div>
+        <a href="#s5-1"><span class="n">5.1</span><span class="t">The three priority gaps</span><span class="ar">→</span></a>
+        <a href="#s5-2"><span class="n">5.2</span><span class="t">Master capability matrix</span><span class="ar">→</span></a>
+        <a href="#s5-3"><span class="n">5.3</span><span class="t">The market in full</span><span class="ar">→</span></a>
+        <a href="#s5-4"><span class="n">5.4</span><span class="t">AI spotlight — the #1 gap</span><span class="ar">→</span></a>
+        <a href="#s5-5"><span class="n">5.5</span><span class="t">Recommendations — staged roadmap</span><span class="ar">→</span></a>
       </aside>
     </div>
 
-    <div class="s1-block" id="s4-1">
-      <div class="block-head"><span class="num">4.1</span><div><h3>Product range at a glance</h3><p class="sub">Confirmed instrument counts by asset class — 40 instruments live for LATAM/offshore clients.</p></div></div>
+    <p class="tnote" style="margin-top:clamp(20px,2.4vw,30px)">Capability availability varies by regulatory entity and jurisdiction and (for AI especially) changes fast — <b>re-verify per LATAM entity before client-facing use</b>. Some “AI” in the market is marketing-led; this analysis flags only what is genuinely live in mid-2026.</p>
+
+    <div class="s1-block" id="s5-1">
+      <div class="block-head"><span class="num">5.1</span><div><h3>The three priority gaps</h3><p class="sub">Where the market has pulled ahead of TMGM — ranked by strategic urgency.</p></div></div>
       <div class="ctable-wrap has-tips"><table class="ctable">
-        <thead><tr><th>Asset class</th><th>Confirmed live</th><th>Notes</th></tr></thead>
+        <thead><tr><th>Priority gap</th><th>What it means</th><th>Who's ahead</th></tr></thead>
         <tbody>
-          <tr><td class="bk">Cryptocurrencies<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Digital coins like Bitcoin. You trade on the price moving up or down, without owning the coin itself.</span><span class="tl">TMGM offers 8 (including Bitcoin and Ethereum). Latin America is one of the world's biggest crypto regions, so this matters.</span></span></span></td><td>8</td><td>BTC, ETH, BCH, BNB, DOT, LTC, XRP, TRUMP</td></tr>
-          <tr><td class="bk">Forex — Majors<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">'Forex' is trading one currency against another, e.g. the euro versus the US dollar. The 'majors' are the most-traded pairs.</span><span class="tl">All 7 here are quoted against the US dollar; there are no minor or exotic pairs in the live set yet.</span></span></span></td><td>7</td><td>USD-quoted majors; no minors or exotics in the live set</td></tr>
-          <tr><td class="bk">Indices<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">An index tracks a whole stock market, or a basket of big companies, as a single number.</span><span class="tl">TMGM offers 9, covering US, Australian, Hong Kong and Japanese markets.</span></span></span></td><td>9</td><td>US (US500, US30, NAS100, US2000) + APAC &amp; HK</td></tr>
-          <tr><td class="bk">Precious metals<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Gold, silver and platinum — traded on their price movement, a classic safe-haven play.</span><span class="tl">TMGM offers all three.</span></span></span></td><td>3</td><td>Gold (XAUUSD), Silver (XAGUSD), Platinum (XPTUSD)</td></tr>
-          <tr><td class="bk">Oil / energy<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Crude oil — the two global benchmarks, Brent and WTI.</span><span class="tl">Traded on the oil price moving up or down.</span></span></span></td><td>2</td><td>Brent (XBRUSD), WTI (XTIUSD)</td></tr>
-          <tr><td class="bk">Stock CFDs<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A way to trade a single company's share price without owning the share itself (CFD = 'contract for difference').</span><span class="tl">TMGM's live set is Hong-Kong-listed shares plus a few US-listed ones — no US single-stocks like Apple or Tesla yet.</span></span></span></td><td>7</td><td>HK-listed + select NYSE; no US single-stocks</td></tr>
-          <tr><td class="bk">ETFs<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">An ETF is a single fund holding a bundle of assets (many shares at once), traded like one share.</span><span class="tl">TMGM offers 4 US and regional ETFs.</span></span></span></td><td>4</td><td>US / regional ETFs</td></tr>
-          <tr class="sumrow"><td class="bk">Total confirmed</td><td>40</td><td>From TMGM Trading data (LATAM/offshore, VFSC)</td></tr>
+          <tr><td class="bk">#1 &nbsp;AI tooling<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">AI built into the trading app: an assistant you can ask questions, automation, and AI that can trade for you.</span><span class="tl">TMGM has none of its own, only a bought-in signal feed (Acuity); eToro, Capital.com and XM are ahead.</span></span></span></td><td>No proprietary AI assistant, automation or agentic AI — only resold third-party Acuity signals</td><td>eToro (Tori, Agent Portfolios), Capital.com, XM (XM AI)</td></tr>
+          <tr><td class="bk">#2 &nbsp;Modern platforms<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Newer trading platforms beyond MetaTrader, mainly cTrader and TradingView, that traders increasingly expect.</span><span class="tl">TMGM relies on MetaTrader and IRESS only; IC Markets, Pepperstone and Vantage offer the newer ones.</span></span></span></td><td>No cTrader and no account-level TradingView — single-engine MetaTrader reliance</td><td>IC Markets, Pepperstone, Vantage, CMC, Octa</td></tr>
+          <tr><td class="bk">#3 &nbsp;Social network<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A built-in social layer: a feed, public leaderboards, and ways for popular traders to earn from followers.</span><span class="tl">TMGM's HUBx only lets clients copy trades; it isn't a social network like eToro's.</span></span></span></td><td>HUBx is a copy portal, not a social network with feed, leaderboards &amp; creator monetization</td><td>eToro, Exness, Vantage, XM</td></tr>
         </tbody>
       </table></div>
-      <p class="tnote">Gold is also offered in a gram-denominated variant (<b>GAUCNH</b>, priced in CNH), shown in the full list below — a variant of the gold exposure, not counted as a separate instrument. FX-major and index counts here match the verified detail in 4.2.</p>
     </div>
 
-    <div class="s1-block" id="s4-2">
-      <div class="block-head"><span class="num">4.2</span><div><h3>Confirmed instruments — full list</h3><p class="sub">Every live instrument with its contract specifications. <b>Digits</b> = decimal places a price is quoted to; <b>Contract size</b> = units one standard lot represents. Source: TMGM Trading data.</p></div></div>
-      <div class="spec-grid">
-        <div class="spec-card"><div class="spec-h">Cryptocurrencies<span class="cnt">8</span></div><table class="spec-table"><thead><tr><th>Symbol</th><th>Digits</th><th>Contract size</th></tr></thead><tbody><tr><td class="bk">BTCUSD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Bitcoin priced in US dollars, the original and largest cryptocurrency.</span><span class="tl">You trade on its price moving up or down without owning the coin; one contract tracks 1 Bitcoin.</span></span></span></td><td>2</td><td>1</td></tr><tr><td class="bk">ETHUSD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Ethereum (Ether) priced in US dollars, the second-largest cryptocurrency.</span><span class="tl">Trades on its price up or down; one contract tracks 1 Ether.</span></span></span></td><td>1</td><td>1</td></tr><tr><td class="bk">BCHUSD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Bitcoin Cash in US dollars, a 2017 offshoot of Bitcoin.</span><span class="tl">Trades on its price up or down; one contract tracks 10 coins.</span></span></span></td><td>2</td><td>10</td></tr><tr><td class="bk">BNBUSD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">BNB in US dollars, the coin of the Binance crypto exchange.</span><span class="tl">Trades on its price up or down; one contract tracks 10 coins.</span></span></span></td><td>2</td><td>10</td></tr><tr><td class="bk">DOTUSD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Polkadot in US dollars, a coin for linking different blockchains.</span><span class="tl">Trades on its price up or down; one contract tracks 100 coins.</span></span></span></td><td>3</td><td>100</td></tr><tr><td class="bk">LTCUSD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Litecoin in US dollars, an early, faster Bitcoin alternative.</span><span class="tl">Trades on its price up or down; one contract tracks 10 coins.</span></span></span></td><td>2</td><td>10</td></tr><tr><td class="bk">XRPUSD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">XRP in US dollars, a coin built for fast, low-cost cross-border payments.</span><span class="tl">Trades on its price up or down; one contract tracks 1,000 coins.</span></span></span></td><td>4</td><td>1000</td></tr><tr><td class="bk">TRUMPUSD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The TRUMP token in US dollars, a high-volatility meme-coin tied to the Trump brand.</span><span class="tl">Trades on its price up or down; one contract tracks 100 coins.</span></span></span></td><td>3</td><td>100</td></tr></tbody></table></div>
-        <div class="spec-card"><div class="spec-h">Forex — Majors<span class="cnt">7</span></div><table class="spec-table"><thead><tr><th>Symbol</th><th>Digits</th><th>Contract size</th></tr></thead><tbody><tr><td class="bk">EURUSD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The euro against the US dollar, the world's most-traded currency pair.</span><span class="tl">One standard contract is 100,000 units of the first currency (the euro).</span></span></span></td><td>5</td><td>100,000</td></tr><tr><td class="bk">GBPUSD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The British pound against the US dollar, nicknamed 'cable'.</span><span class="tl">One standard contract is 100,000 units of the first currency (the pound).</span></span></span></td><td>5</td><td>100,000</td></tr><tr><td class="bk">USDCHF<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The US dollar against the Swiss franc, a classic safe-haven pairing.</span><span class="tl">One standard contract is 100,000 units of the first currency (the US dollar).</span></span></span></td><td>5</td><td>100,000</td></tr><tr><td class="bk">USDJPY<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The US dollar against the Japanese yen, a major Asian-session pair.</span><span class="tl">One standard contract is 100,000 units of the first currency (the US dollar).</span></span></span></td><td>3</td><td>100,000</td></tr><tr><td class="bk">USDCAD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The US dollar against the Canadian dollar, which often moves with oil prices.</span><span class="tl">One standard contract is 100,000 units of the first currency (the US dollar).</span></span></span></td><td>5</td><td>100,000</td></tr><tr><td class="bk">AUDUSD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The Australian dollar against the US dollar, tied to commodities and risk appetite.</span><span class="tl">One standard contract is 100,000 units of the first currency (the Australian dollar).</span></span></span></td><td>5</td><td>100,000</td></tr><tr><td class="bk">NZDUSD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The New Zealand dollar against the US dollar, nicknamed 'the kiwi'.</span><span class="tl">One standard contract is 100,000 units of the first currency (the NZ dollar).</span></span></span></td><td>5</td><td>100,000</td></tr></tbody></table></div>
-        <div class="spec-card"><div class="spec-h">Indices<span class="cnt">9</span></div><table class="spec-table"><thead><tr><th>Symbol</th><th>Digits</th><th>Contract size</th></tr></thead><tbody><tr><td class="bk">US500<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Tracks the 500 largest US companies (the S&amp;P 500) as a single number.</span><span class="tl">A broad read on the US stock market; trades on the index level up or down.</span></span></span></td><td>2</td><td>10</td></tr><tr><td class="bk">US30<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Tracks 30 big US blue-chip companies (the Dow Jones Industrial Average).</span><span class="tl">A classic gauge of large US firms; trades on the index up or down.</span></span></span></td><td>2</td><td>10</td></tr><tr><td class="bk">NAS100<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Tracks the 100 biggest non-financial Nasdaq firms (the Nasdaq 100).</span><span class="tl">A tech-heavy US index; trades on the index level up or down.</span></span></span></td><td>2</td><td>10</td></tr><tr><td class="bk">US2000<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Tracks about 2,000 smaller US companies (the Russell 2000).</span><span class="tl">A read on US small-company stocks; trades on the index up or down.</span></span></span></td><td>2</td><td>10</td></tr><tr><td class="bk">AUS200<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Tracks Australia's 200 largest listed companies (the ASX 200).</span><span class="tl">The main gauge of the Australian share market.</span></span></span></td><td>2</td><td>10</td></tr><tr><td class="bk">HK50<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Tracks around 50 of Hong Kong's largest companies (the Hang Seng Index).</span><span class="tl">The main gauge of the Hong Kong share market.</span></span></span></td><td>2</td><td>10</td></tr><tr><td class="bk">HSCHKD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Tracks big mainland-China companies listed in Hong Kong (the Hang Seng China Enterprises, or 'H-shares').</span><span class="tl">A read on large Chinese firms via Hong Kong.</span></span></span></td><td>2</td><td>10</td></tr><tr><td class="bk">JPN225<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Tracks 225 large Japanese companies (the Nikkei 225).</span><span class="tl">The main gauge of the Japanese share market.</span></span></span></td><td>2</td><td>100</td></tr><tr><td class="bk">CHCUSD<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A large-cap China index priced in US dollars.</span><span class="tl">A read on China's biggest listed companies; trades on the index up or down.</span></span></span></td><td>2</td><td>1</td></tr></tbody></table></div>
-        <div class="spec-card"><div class="spec-h">Precious Metals &amp; Oil<span class="cnt">6</span></div><table class="spec-table"><thead><tr><th>Symbol</th><th>Digits</th><th>Contract size</th></tr></thead><tbody><tr><td class="bk">XAUUSD (Gold)<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Gold priced in US dollars per troy ounce, the classic safe-haven metal.</span><span class="tl">One contract represents 100 ounces; trades on the gold price up or down.</span></span></span></td><td>2</td><td>100</td></tr><tr><td class="bk">XAGUSD (Silver)<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Silver priced in US dollars per troy ounce.</span><span class="tl">One contract represents 1,000 ounces; trades on the silver price up or down.</span></span></span></td><td>3</td><td>1,000</td></tr><tr><td class="bk">XPTUSD (Platinum)<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Platinum priced in US dollars per troy ounce, a rarer industrial precious metal.</span><span class="tl">One contract represents 100 ounces; trades on the platinum price up or down.</span></span></span></td><td>2</td><td>100</td></tr><tr><td class="bk">GAUCNH (gram)<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Gold priced in offshore Chinese yuan (CNH) per gram, a variant of the gold exposure.</span><span class="tl">Same metal as XAUUSD, just quoted in grams and yuan; one contract is 1,000 grams.</span></span></span></td><td>2</td><td>1,000</td></tr><tr><td class="bk">XBRUSD (Brent)<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Brent crude oil in US dollars, the global oil-price benchmark.</span><span class="tl">One contract represents 100 barrels; trades on the oil price up or down.</span></span></span></td><td>2</td><td>100</td></tr><tr><td class="bk">XTIUSD (WTI)<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">WTI crude oil in US dollars, the main US oil-price benchmark.</span><span class="tl">One contract represents 100 barrels; trades on the oil price up or down.</span></span></span></td><td>2</td><td>100</td></tr></tbody></table></div>
-        <div class="spec-card"><div class="spec-h">Stock CFDs<span class="cnt">7</span></div><table class="spec-table"><thead><tr><th>Symbol</th><th>Digits</th><th>Contract size</th></tr></thead><tbody><tr><td class="bk">0001.HKG<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A contract on the Hong-Kong-listed shares of CK Hutchison Holdings (ticker 0001).</span><span class="tl">Trades on the share price up or down without owning the share.</span></span></span></td><td>2</td><td>100</td></tr><tr><td class="bk">0002.HKG<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A contract on the Hong-Kong-listed shares of CLP Holdings, a major power utility (ticker 0002).</span><span class="tl">Trades on the share price up or down without owning the share.</span></span></span></td><td>2</td><td>100</td></tr><tr><td class="bk">0003.HKG<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A contract on the Hong-Kong-listed shares of Hong Kong &amp; China Gas (Towngas, ticker 0003).</span><span class="tl">Trades on the share price up or down without owning the share.</span></span></span></td><td>2</td><td>100</td></tr><tr><td class="bk">0005.HKG<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A contract on the Hong-Kong-listed shares of HSBC Holdings, the global bank (ticker 0005).</span><span class="tl">Trades on the share price up or down without owning the share.</span></span></span></td><td>2</td><td>100</td></tr><tr><td class="bk">EEM.NYS<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A US-listed ETF tracking emerging-market stocks (iShares MSCI Emerging Markets).</span><span class="tl">One fund holding many emerging-market shares, traded like a single share.</span></span></span></td><td>2</td><td>1</td></tr><tr><td class="bk">GLD.NYS<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A US-listed ETF that tracks the price of gold (SPDR Gold Shares).</span><span class="tl">A way to get gold exposure through one fund, traded like a single share.</span></span></span></td><td>2</td><td>1</td></tr><tr><td class="bk">HYG.NYS<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A US-listed ETF holding higher-risk 'high-yield' corporate bonds (iShares iBoxx High Yield).</span><span class="tl">Exposure to riskier company debt through one fund, traded like a single share.</span></span></span></td><td>2</td><td>1</td></tr></tbody></table></div>
-        <div class="spec-card"><div class="spec-h">ETFs<span class="cnt">4</span></div><table class="spec-table"><thead><tr><th>Symbol</th><th>Digits</th><th>Contract size</th></tr></thead><tbody><tr><td class="bk">EPHE.BAT<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">An ETF tracking the Philippine stock market (iShares MSCI Philippines).</span><span class="tl">One fund holding many Philippine shares, traded like a single share.</span></span></span></td><td>2</td><td>1</td></tr><tr><td class="bk">EWC.BAT<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">An ETF tracking the Canadian stock market (iShares MSCI Canada).</span><span class="tl">One fund holding many Canadian shares, traded like a single share.</span></span></span></td><td>2</td><td>1</td></tr><tr><td class="bk">INDA.BAT<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">An ETF tracking the Indian stock market (iShares MSCI India).</span><span class="tl">One fund holding many Indian shares, traded like a single share.</span></span></span></td><td>2</td><td>1</td></tr><tr><td class="bk">YINN.BAT<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A leveraged ETF aiming for roughly 3x the daily move of big Chinese stocks (Direxion FTSE China Bull 3X).</span><span class="tl">A high-risk, amplified bet on Chinese shares, traded like a single share.</span></span></span></td><td>2</td><td>1</td></tr></tbody></table></div>
+    <div class="s1-block" id="s5-2">
+      <div class="block-head"><span class="num">5.2</span><div><h3>Master capability gap matrix</h3><p class="sub">The at-a-glance scorecard — what TMGM has (green), partly has (amber), and lacks (red).</p></div></div>
+      <div class="ctable-wrap has-tips"><table class="ctable">
+        <thead><tr><th>Capability</th><th>TMGM</th><th>Market leaders offering it</th></tr></thead>
+        <tbody>
+          <tr><td class="bk">Proprietary AI assistant / chatbot<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">An AI you can chat with inside the trading app: ask it about markets, a stock, or your account and it answers.</span><span class="tl">eToro's 'Tori' and XM's 'XM AI' are examples; TMGM has none of its own.</span></span></span></td><td class="gap">✗</td><td>eToro (Tori), Capital.com, XM (XM AI)</td></tr>
+          <tr><td class="bk">Agentic / AI-automation trading<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Letting an AI run trading for you: either automated rules written in plain English, or an AI 'agent' that trades on your behalf.</span><span class="tl">TMGM offers nothing here; eToro and Pepperstone do.</span></span></span></td><td class="gap">✗</td><td>eToro (Agent Portfolios); Pepperstone &amp; AvaTrade (Capitalise.ai)</td></tr>
+          <tr><td class="bk">AI signals / sentiment (3rd-party)<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">AI-generated trade ideas, plus a read on whether the news mood is positive or negative.</span><span class="tl">TMGM does have this, but through a bought-in service called Acuity, not its own AI.</span></span></span></td><td class="win">✓ Acuity</td><td>FP Markets, OneRoyal, Vantage (Acuity / Trading Central)</td></tr>
+          <tr><td class="bk">cTrader platform<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A popular alternative trading platform to MetaTrader, liked for its clean design and built-in automation.</span><span class="tl">TMGM doesn't offer it; IC Markets and Pepperstone do.</span></span></span></td><td class="gap">✗</td><td>IC Markets, Pepperstone, FP Markets</td></tr>
+          <tr><td class="bk">TradingView (account integration)<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">TradingView is the charting tool millions of traders already use; integration means trading your TMGM account directly inside it.</span><span class="tl">Very popular in Latin America; TMGM doesn't connect to it yet.</span></span></span></td><td class="gap">✗</td><td>IC Markets, Pepperstone, Vantage, CMC, Octa</td></tr>
+          <tr><td class="bk">Proprietary social network / feed<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A built-in social feed, leaderboards and follower features, like a trading version of Instagram.</span><span class="tl">TMGM's HUBx only lets you copy traders; it isn't a social network like eToro's.</span></span></span></td><td class="gap">✗</td><td>eToro, Exness, Vantage, XM</td></tr>
+          <tr><td class="bk">Copy trading<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Automatically copying the trades of more experienced traders.</span><span class="tl">TMGM has this (via HUBx and ZuluTrade), a genuine strength.</span></span></span></td><td class="win">✓ HUBx + ZuluTrade</td><td>All majors</td></tr>
+          <tr><td class="bk">MAM / PAMM managed accounts<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Accounts where one manager trades on behalf of many clients and the results are split, popular with money managers.</span><span class="tl">TMGM offers this through HUBx.</span></span></span></td><td class="win">✓ HUBx</td><td>IC Markets, HFM, FP Markets, Exness</td></tr>
+          <tr><td class="bk">Free VPS<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A free always-on server so automated strategies keep running even when your own computer is off.</span><span class="tl">TMGM provides it, a real plus for automated traders.</span></span></span></td><td class="win">✓</td><td>IC Markets, Pepperstone</td></tr>
+          <tr><td class="bk">Trading Central / calendar / calculators<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The everyday research and planning tools: analyst signals, an economic-events calendar, and risk calculators.</span><span class="tl">TMGM has all of these.</span></span></span></td><td class="win">✓</td><td>All majors</td></tr>
+          <tr><td class="bk">Autochartist<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A tool that automatically scans charts and alerts you to trading patterns as they form.</span><span class="tl">TMGM likely doesn't offer it; Pepperstone and Vantage do.</span></span></span></td><td class="gap">✗ (likely)</td><td>Pepperstone, FP Markets, Vantage, ATFX</td></tr>
+          <tr><td class="bk">Retail FIX / REST API<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A way for tech-savvy clients to plug their own software straight into the broker to trade automatically.</span><span class="tl">TMGM has no public version; IC Markets does, via cTrader.</span></span></span></td><td class="gap">✗</td><td>IC Markets (cTrader API)</td></tr>
+          <tr><td class="bk">GSLO / trade insurance<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">A 'guaranteed stop' that caps your loss at an exact level no matter how wildly the market jumps, like insurance on a trade.</span><span class="tl">TMGM doesn't offer it; AvaTrade, IG and CMC do.</span></span></span></td><td class="gap">✗</td><td>AvaTrade (AvaProtect), IG, CMC, Plus500</td></tr>
+          <tr><td class="bk">Exchange-traded options / futures<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">More advanced product types (options and futures) traded on official exchanges, beyond the usual CFDs.</span><span class="tl">TMGM doesn't offer them; AvaTrade and Saxo do.</span></span></span></td><td class="gap">✗</td><td>AvaTrade (AvaOptions/AvaFutures), Saxo, IG</td></tr>
+          <tr><td class="bk">Real / fractional shares<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Owning actual company shares, including buying a slice of a pricey one (e.g. part of a single Amazon share).</span><span class="tl">TMGM only partly offers this (via IRESS); eToro and Saxo do it fully.</span></span></span></td><td class="amber-cell">Partial (IRESS)</td><td>eToro, Saxo, IG, CMC</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="s1-block" id="s5-3">
+      <div class="block-head"><span class="num">5.3</span><div><h3>The market in full — category by category</h3><p class="sub">The 360· view: what the field offers in each category, and where it leaves TMGM.</p></div></div>
+      <div class="ctable-wrap has-tips"><table class="ctable">
+        <thead><tr><th>Category</th><th>What the market offers (leaders &amp; standouts)</th><th>TMGM</th><th>The gap</th></tr></thead>
+        <tbody>
+          <tr><td class="bk">Copy / Social Trading<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Features for copying other traders and following them socially.</span><span class="tl">TMGM can copy, but doesn't have a true social network around it.</span></span></span></td><td>eToro CopyTrader + Popular Investor (up to 1.5% of AUC/mo); Exness Social; Vantage Copy (603k+ copiers); AvaSocial/DupliTrade; IC Social</td><td class="win">Has — HUBx + ZuluTrade</td><td>Not a true social network</td></tr>
+          <tr><td class="bk">AI Trading &amp; Tools ★<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">AI-powered assistants, automation and insights built into the platform.</span><span class="tl">TMGM's biggest gap: it only resells a third-party signal feed.</span></span></span></td><td>eToro Tori + Agent Portfolios; Capital.com assistant + SmartFeed; XM AI; Capitalise.ai (Pepperstone/AvaTrade)</td><td class="amber-cell">Partial — Acuity only</td><td>No proprietary AI — <b>biggest gap</b></td></tr>
+          <tr><td class="bk">Trading Tools &amp; Analytics<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The everyday research and analysis tools traders rely on.</span><span class="tl">TMGM is well-equipped here, missing only a couple (Autochartist, Myfxbook).</span></span></span></td><td>Autochartist, Trading Central, Acuity; IC Markets 20+ MT tools; Pepperstone Smart Trader Tools; Myfxbook</td><td class="win">Has — TC, Acuity, VPS, calc</td><td>No Autochartist / Myfxbook</td></tr>
+          <tr><td class="bk">Algo / API + Managed<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Tools for automated trading, software connections, and professionally-managed accounts.</span><span class="tl">TMGM covers most of this, but has no public software connection (API) and no cTrader.</span></span></span></td><td>EA (universal); cTrader Automate; FIX/REST API; MAM/PAMM (IC Markets, HFM, Exness)</td><td class="win">Has — EA, MAM (HUBx), VPS</td><td>No public API; no cTrader</td></tr>
+          <tr><td class="bk">Platforms<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">The actual trading software and apps a broker offers.</span><span class="tl">TMGM has MetaTrader, IRESS and its app, but not cTrader or TradingView.</span></span></span></td><td>MT4/MT5 universal; cTrader + TradingView (IC Markets, Pepperstone); Saxo 70,000+ instruments</td><td class="win">Has — MT4/5, IRESS, app</td><td>No cTrader / TradingView</td></tr>
+          <tr><td class="bk">Risk-Management Tools<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Features that help limit how much a trader can lose.</span><span class="tl">TMGM has negative-balance protection, but not guaranteed stops or trade insurance.</span></span></span></td><td>NBP widespread; GSLO (IG/CMC/Plus500); AvaProtect trade insurance; Exness Stop-Out Protection</td><td class="win">Has — NBP</td><td>No GSLO / trade insurance</td></tr>
+          <tr><td class="bk">Instrument-Type Breadth<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">How wide the range of things you can trade is (shares, options, futures, crypto, and so on).</span><span class="tl">TMGM is solid on the usual markets but lacks options, futures and fractional shares.</span></span></span></td><td>Real stocks, options, futures, bonds, ETFs, fractional shares, broad crypto (Saxo 70k; eToro 100+ coins)</td><td class="win">Has — FX, indices, metals, energy, CFDs, 8 crypto</td><td>No options/futures/fractional</td></tr>
+          <tr><td class="bk">Education &amp; Research<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Learning resources and in-house market research.</span><span class="tl">TMGM has its Academy and bought-in research, but a thinner research desk than the biggest names.</span></span></span></td><td>IG/Saxo research desks; AvaAcademy; XM daily webinars (23 languages); Bloomberg at Vantage</td><td class="win">Has — TMGM Academy, TC/Acuity</td><td>Thinner research desk</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="s1-block" id="s5-4">
+      <div class="block-head"><span class="num">5.4</span><div><h3>AI spotlight — the #1 gap</h3><p class="sub">AI has shifted from marketing language to live product. Where TMGM stands on each AI capability.</p></div></div>
+      <div class="ctable-wrap has-tips"><table class="ctable">
+        <thead><tr><th>AI capability</th><th>What it is</th><th>Who's shipping it (2026)</th><th>TMGM</th></tr></thead>
+        <tbody>
+          <tr><td class="bk">AI assistant / chatbot<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">An AI you chat with inside the app for market analysis and questions about a stock or your account.</span><span class="tl">eToro's Tori (built on Grok) and XM AI are live examples; TMGM has none.</span></span></span></td><td>Conversational market analysis &amp; Q&amp;A inside the app</td><td>eToro (Tori, on Grok 4.2), Capital.com, XM (XM AI)</td><td class="gap">✗</td></tr>
+          <tr><td class="bk">No-code AI automation<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Setting up automated trading rules by typing them in plain English, with no programming needed.</span><span class="tl">Capitalise.ai powers this for Pepperstone and AvaTrade; TMGM doesn't offer it.</span></span></span></td><td>Automate strategies in plain language (no coding)</td><td>Capitalise.ai → Pepperstone, AvaTrade (Kraken-owned, 2025)</td><td class="gap">✗</td></tr>
+          <tr><td class="bk">Agentic AI (AI agents trade)<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Letting an AI 'agent' actually place trades for you, connected to a small funded account.</span><span class="tl">eToro's Agent Portfolios is the first mainstream example; TMGM has nothing here.</span></span></span></td><td>Connect your own AI agent via API to a funded sub-account</td><td>eToro Agent Portfolios ($200 min)</td><td class="gap">✗</td></tr>
+          <tr><td class="bk">AI signals &amp; sentiment<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">AI-generated trade ideas plus a read on whether news coverage is positive or negative.</span><span class="tl">This is the one AI area TMGM covers, via the bought-in Acuity feed.</span></span></span></td><td>AI-generated trade ideas + NLP news sentiment</td><td>Acuity (AnalysisIQ 40–50 ideas/day, NewsIQ), Trading Central</td><td class="win">✓ Acuity</td></tr>
+          <tr><td class="bk">AI app personalization<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">An app feed that uses AI to tailor the news, insights and analytics it shows each client.</span><span class="tl">Capital.com's SmartFeed is the lead example; TMGM doesn't offer it.</span></span></span></td><td>AI-curated news/insights feed &amp; analytics</td><td>Capital.com SmartFeed</td><td class="gap">✗</td></tr>
+        </tbody>
+      </table></div>
+      <p class="tnote">TMGM's only AI exposure is the resold third-party Acuity signal/sentiment feed — <b>no proprietary assistant, automation or agentic AI</b>. This is the single largest strategic product gap and the fastest-moving battleground in the industry.</p>
+    </div>
+
+    <div class="s1-block" id="s5-5">
+      <div class="block-head"><span class="num">5.5</span><div><h3>Recommendations — staged roadmap</h3><p class="sub">Sequenced to ship a visible win fast, then build the differentiated and defensive layers.</p></div></div>
+      <div class="timeline">
+        <div class="tl-stage">
+          <span class="tl-node"></span>
+          <div class="tl-card"><div class="tl-head"><span class="sn">Stage 1 — Platform + AI quick win</span><span class="st">0–6 mo</span></div>
+          <p>Add TradingView and/or cTrader to match IC Markets/Pepperstone/Vantage (TradingView = higher-impact, fast win, very popular in LATAM); deepen the existing Acuity tie-up to surface an AI assistant/chatbot to market immediately.</p></div>
+        </div>
+        <div class="tl-stage">
+          <span class="tl-node"></span>
+          <div class="tl-card"><div class="tl-head"><span class="sn">Stage 2 — Social + proprietary AI</span><span class="st">6–12 mo</span></div>
+          <p>Evolve HUBx into a true social network (public leaderboards, social feed, copy-stop-loss, Popular-Investor-style payouts); add Capitalise.ai-style no-code automation and/or an AI market-analysis assistant beyond Acuity.</p></div>
+        </div>
+        <div class="tl-stage">
+          <span class="tl-node"></span>
+          <div class="tl-card"><div class="tl-head"><span class="sn">Stage 3 — Products + risk tooling</span><span class="st">12–24 mo</span></div>
+          <p>Evaluate AvaProtect-style trade insurance or GSLO for risk-averse LATAM retail; broaden real/fractional shares + crypto vs eToro; monitor agentic AI (eToro Agent Portfolios) for when LATAM regulatory clarity emerges.</p></div>
+        </div>
       </div>
-      <p class="tnote">The gram-denominated gold line (<b>GAUCNH</b>) is a variant of the gold exposure, so the distinct-instrument total is <b>40</b> (41 lines shown). Confirm the full FX-major set with Trading when verifying the additions in 4.3.</p>
+      <div class="trig">
+        <div class="th">Triggers that change the priority order</div>
+        <p>(a) rising competitor TradingView/cTrader adoption in LATAM → accelerate Stage 1; (b) measurable client attrition citing AI/copy features → accelerate Stage 2; (c) regulatory approval of AI-agent trading in Brazil/Mexico → bring Stage 3 agentic AI forward.</p>
+      </div>
     </div>
 
-    <div class="s1-block" id="s4-3">
-      <div class="block-head"><span class="num">4.3</span><div><h3>Gaps to confirm with Trading</h3><p class="sub">Instruments competitors prominently offer that TMGM should evaluate — NOT currently offered; for Trading to confirm.</p></div></div>
-      <div class="ctable-wrap has-tips"><table class="ctable">
-        <thead><tr><th>Asset class</th><th>Instruments competitors offer</th><th>Why it matters for LATAM</th></tr></thead>
-        <tbody>
-          <tr><td class="bk amber-cell">More crypto coins<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">More digital coins beyond the 8 TMGM has today — e.g. Solana, Cardano, and 'stablecoins' (coins pegged to the US dollar).</span><span class="tl">Latin America is a top-5 crypto region and rivals carry 10 to 17 coins, so this is a clear gap to weigh.</span></span></span></td><td>SOL, ADA, DOGE, AVAX, MATIC, USDT/USDC pairs</td><td>LATAM is top-5 crypto; rivals carry 10–17 coins &amp; stablecoins (we have 8)</td></tr>
-          <tr><td class="bk amber-cell">US single-stock CFDs<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Trading individual US company shares (Apple, Tesla, Nvidia and similar) — not in TMGM's live set today.</span><span class="tl">There's strong Latin-American demand for US mega-caps, so it's worth Trading evaluating.</span></span></span></td><td>Apple, Tesla, Nvidia, Amazon, Microsoft, Meta</td><td>Strong LATAM appetite for US mega-caps; not in the current live set</td></tr>
-          <tr><td class="bk amber-cell">Forex minors / exotics<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">Currency pairs beyond the majors — including local ones like US dollar vs Mexican peso (USDMXN) or Brazilian real (USDBRL).</span><span class="tl">The local pairs especially matter for traders inside these markets.</span></span></span></td><td>EURGBP, EURJPY, GBPJPY, USDMXN, USDBRL, USDZAR</td><td>USDMXN / USDBRL especially relevant for local-market traders</td></tr>
-          <tr><td class="bk amber-cell">Broader index set<span class="itip" tabindex="0" aria-label="What this means">i<span class="tipbox"><span class="tl">More stock-market indices — like Germany's DAX, the UK 100, France's CAC, and the Euro Stoxx 50.</span><span class="tl">Standard global coverage most rivals already offer.</span></span></span></td><td>GER40 (DAX), UK100, FRA40, EU50</td><td>Standard global index coverage offered by most rivals</td></tr>
-        </tbody>
-      </table></div>
-      <p class="tnote">These rows are competitive-gap flags, not current TMGM products. They map directly to the Stage-0 product recommendations in Sections 1–3 (expand crypto breadth; assess US single-stock CFDs and local-relevant FX pairs).</p>
-    </div>
-
-    <div class="botline"><div class="bl">Bottom line</div><p>TMGM offers <b>40 confirmed instruments</b> to LATAM/offshore clients today — a solid multi-asset base led by crypto (8), FX majors, indices, metals and HK/ETF equities. The accuracy corrections (8 crypto coins, no US single-stocks) are reflected here and aligned across the other sections. Closing the “to confirm” gaps — more crypto/stablecoins and US single-stock CFDs — would directly strengthen the LATAM proposition.</p></div>
+    <div class="botline"><div class="bl">Bottom line</div><p>TMGM's core toolkit is solid, but the competitive frontier has moved to AI, modern platforms and social trading — and TMGM is visibly behind on all three. The fastest credibility win is adding TradingView/cTrader and a marketable AI assistant; the bigger prize is a genuine social-trading network and proprietary AI. These are global capability gaps, but closing them directly strengthens the LATAM proposition where younger, mobile-first, AI-curious traders are exactly the target.</p></div>
   </div>
 </section>
 
@@ -1845,7 +2012,7 @@ a{color:inherit; text-decoration:none;}
   var links=[].slice.call(document.querySelectorAll('.nav-links a'));
   var map={}; links.forEach(function(a){var h=a.getAttribute('href'); if(h)map[h.slice(1)]=a;});
   function setA(id){links.forEach(function(a){a.classList.remove('active');}); if(map[id])map[id].classList.add('active');}
-  var ids=['top','stage0','docset','s0','s1','s2','s3','s4'];
+  var ids=['top','stage0','docset','s0','s1','s2','s3','s4','s5'];
   if('IntersectionObserver' in window){
     var obs=new IntersectionObserver(function(es){es.forEach(function(e){ if(e.isIntersecting) setA(e.target.id); });},{rootMargin:'-45% 0px -50% 0px',threshold:0});
     ids.forEach(function(id){var el=document.getElementById(id); if(el)obs.observe(el);});
